@@ -1,0 +1,28 @@
+{
+  "name": "lhwmp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run watch\"",
+    "server": "lite-server --baseDir=public",
+    "build:ejs": "node scripts/build.js",
+    "build:sass": "node-sass src/sass/style.scss public/style.css",
+    "watch": "nodemon --exec \"npm run build:ejs && npm run build:sass\" --watch src --ext ejs,scss",
+    "deploy": "surge public --domain kc-lhwmp.surge.sh"
+  },
+  "author": "King County",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^2.4.2",
+    "concurrently": "^4.1.0",
+    "lite-server": "^2.4.0",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.9",
+    "surge": "^0.20.1",
+    "ejs": "^2.6.1"
+  },
+  "dependencies": {
+    //b1ec1f6234d6ff7db7b08277fd965cac
+  }
+}
