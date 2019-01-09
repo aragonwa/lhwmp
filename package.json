@@ -10,7 +10,7 @@
     "build:sass": "node-sass src/sass/style.scss public/style.css",
     "watch": "nodemon --exec \"npm run build:ejs && npm run build:sass\" --watch src --ext ejs,scss",
     "deploy": "surge public --domain kc-lhwmp.surge.sh",
-     "test": "echo \"Error: no test specified.\""
+    "test": "echo \"Error: no test specified.\""
   },
   "author": "King County",
   "license": "ISC",
