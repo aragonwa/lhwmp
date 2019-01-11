@@ -7,7 +7,7 @@
     "dev": "concurrently \"npm run server\" \"npm run watch\"",
     "server": "lite-server --baseDir=public",
     "build:ejs": "node scripts/build.js",
-    "build:sass": "node-sass src/sass/style.scss public/style.css",
+    "build:sass": "node-sass src/sass/base.scss public/style.css",
     "watch": "nodemon --exec \"npm run build:ejs && npm run build:sass\" --watch src --ext ejs,scss",
     "deploy": "surge public --domain kc-lhwmp.surge.sh",
     "test": "echo \"Error: no test specified.\""
@@ -24,6 +24,6 @@
     "ejs": "^2.6.1"
   },
   "dependencies": {
-   
+
   }
 }
