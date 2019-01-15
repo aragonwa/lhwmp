@@ -4,6 +4,7 @@ The Local Hazardous Waste Management Program in King County (LHWMP) is a regiona
 
 The project will deliver a Content Management System using Sitecore 9 and launch a new website. 
 
+* [Demo site](http://kc-lhwmp.surge.sh/)
 * [Sharepoint Project site](https://kc1.sharepoint.com/teams/IT/PMCOE/LHWMP/default.aspx)
 * [Azure DevOps site](https://kingcounty.visualstudio.com/Local-Hazardous-Waste-Management)
 
