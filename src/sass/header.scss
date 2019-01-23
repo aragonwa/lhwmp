@@ -1,0 +1,68 @@
+.#{$namespace}-header {
+  .nav {
+    background-color: transparent;
+    color: #000000;
+  }
+  .nav-link {
+    color: #535d62;
+  }
+  .nav-logo {
+    padding: 10px;
+  }
+  .navsearch {
+    margin-top: 10px;
+  }
+
+  .input-field > input[type='search'].navsearch-input {
+    height: 44px;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    width: calc(100% - 3.5rem);
+  }
+  .input-field label.navsearch-label {
+    top: -9px;
+  }
+  .material-icons.navsearch-icon,
+  nav .input-field label.active i {
+    color: #535d62;
+    transition: color 0.3s;
+  }
+  .input-field
+    input[type='search']:focus:not(.browser-default)
+    + label
+    i.navsearch-icon {
+    color: #000000;
+  }
+  nav .input-field input[type='search'] + .label-icon {
+    left: initial;
+    right: 1rem;
+  }
+  nav form {
+    width: 170px;
+  }
+  .nav-wrapper .input-field input[type='search'] {
+    background-color: #eaeaea;
+    border-radius: 7px;
+  }
+  .nav-wrapper .input-field {
+    visibility: hidden;
+  }
+  @media only screen and (min-width: 992px) {
+    .nav-wrapper .input-field {
+      visibility: initial;
+    }
+  }
+  .nav-wrapper .dropdown-content {
+    top: -64px;
+  }
+  .nav-wrapper .dropdown-content li {
+    background-color: #f1f4f5;
+  }
+  .nav-wrapper .dropdown-content li > a {
+    color: #435864;
+  }
+
+  .sidenav-trigger {
+    color: #000000;
+  }
+}
