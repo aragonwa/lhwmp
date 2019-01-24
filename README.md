@@ -7,6 +7,7 @@ The project will deliver a Content Management System using Sitecore 9 and launch
 * [Demo site](http://kc-lhwmp.surge.sh/)
 * [Sharepoint Project site](https://kc1.sharepoint.com/teams/IT/PMCOE/LHWMP/default.aspx)
 * [Azure DevOps site](https://kingcounty.visualstudio.com/Local-Hazardous-Waste-Management)
+* [Materialize CSS](https://materializecss.com)
 
 ## Getting Started
 
@@ -147,4 +148,4 @@ $ git push origin --delete branchname  or  $ git push origin:branchname
 
 - [ ] Javascript compile script
 - [ ] Break sass file into seperate component files
-- [ ] Get list of components
+- [ ] Get list of components names
