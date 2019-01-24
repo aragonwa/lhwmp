@@ -1,0 +1,8 @@
+// Find name for this component
+.#{$namespace}-accordion-map {
+  .collapsible li.active,
+  .collapsible li.active .collapsible-header {
+    transition: background-color 0.7s ease;
+    background-color: #e3f3e9;
+  }
+}

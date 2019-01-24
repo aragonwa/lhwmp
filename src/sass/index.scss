@@ -1,1 +1,14 @@
+// Wrap your component in a namespace class
+// Use namespace "hw" - hazwaste
+// then use component name
+// Ex: .#{$namespace}-header === .hw-header
+$namespace: "hw";
+
 @import 'base';
+@import 'header';
+@import 'hero';
+@import 'combo-box';
+@import 'signup';
+@import 'accordion-map';
+@import 'prefooter';
+@import 'footer';

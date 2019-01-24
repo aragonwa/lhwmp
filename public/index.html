@@ -16,103 +16,90 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header>
-      <nav class="hw-nav nav-extended">
-        <div class="container">
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo"
-            ><img src="Logo.png" class="responsive-img hw-nav__logo" width="268" height="48"
-          /></a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
-            ><i class="material-icons">menu</i></a
-          >
-          <form class="right hw-navsearch" >
-            <div class="input-field">
-              <input id="search" type="search" required class="hw-navsearch__input" />
-              <label class="label-icon hw-navsearch__label" for="search"
-                ><i class="material-icons hw-navsearch__icon" >search</i></label
-              >
-            </div>
-          </form>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li>
-              <a class="dropdown-trigger hw-nav__link" href="#!" data-target="dropdown1"
-                >Households<i class="material-icons right"
-                  >arrow_drop_down</i
-                ></a
-              >
-            </li>
-            <li>
-              <a class="dropdown-trigger hw-nav__link" href="#!" data-target="dropdown2"
-                >Businesses<i class="material-icons right"
-                  >arrow_drop_down</i
-                ></a
-              >
-            </li>
-            <li class="right"><a class="hw-nav__link" href="#">News & Events</a></li>
-            <li class="right"><a class="hw-nav__link" href="#">Languages Resources</a></li>
-            <li class="right"><a class="hw-nav__link" href="#">Customer Service</a></li>
-          </ul>
-        </div>
+    <header class="hw-header">
+  <nav class="nav nav-extended">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo"
+          ><img src="Logo.png" class="responsive-img nav-logo" width="268" height="48"
+        /></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+          ><i class="material-icons">menu</i></a
+        >
+        <form class="right navsearch" >
+          <div class="input-field">
+            <input id="search" type="search" required class="navsearch-input" />
+            <label class="label-icon navsearch-label" for="search"
+              ><i class="material-icons navsearch-icon" >search</i></label
+            >
+          </div>
+        </form>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li>
+            <a class="dropdown-trigger nav-link" href="#!" data-target="dropdown1"
+              >Households<i class="material-icons right"
+                >arrow_drop_down</i
+              ></a
+            >
+          </li>
+          <li>
+            <a class="dropdown-trigger nav-link" href="#!" data-target="dropdown2"
+              >Businesses<i class="material-icons right"
+                >arrow_drop_down</i
+              ></a
+            >
+          </li>
+          <li class="right"><a class="nav-link waves-effect waves-light" href="#">News & Events</a></li>
+          <li class="right"><a class="nav-link waves-effect waves-light" href="#">Languages Resources</a></li>
+          <li class="right"><a class="nav-link waves-effect waves-light" href="#">Customer Service</a></li>
+        </ul>
       </div>
-      </nav>
-      <ul class="sidenav" id="mobile-demo">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
-      </ul>
-      <ul id="dropdown1" class="dropdown-content">
-        <li><a href="#!">Find hazardous waste products</a></li>
-        <li><a href="#!">Dispoal options</a></li>
-        <li><a href="#!">Safer home products</a></li>
-        <li><a href="#!">Home collection</a></li>
-        <li><a href="#!">Incentives & home inspections</a></li>
-      </ul>
-      <ul id="dropdown2" class="dropdown-content">
-        <li><a href="#!">Dispose hazardous waste</a></li>
-        <li><a href="#!">How to choose safer products</a></li>
-        <li><a href="#!">Consultation</a></li>
-      </ul>
-    </header>
+    </div>
+  </nav>
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="sass.html">Sass</a></li>
+    <li><a href="badges.html">Components</a></li>
+    <li><a href="collapsible.html">Javascript</a></li>
+    <li><a href="mobile.html">Mobile</a></li>
+  </ul>
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="#!">Find hazardous waste products</a></li>
+    <li><a href="#!">Dispoal options</a></li>
+    <li><a href="#!">Safer home products</a></li>
+    <li><a href="#!">Home collection</a></li>
+    <li><a href="#!">Incentives & home inspections</a></li>
+  </ul>
+  <ul id="dropdown2" class="dropdown-content">
+    <li><a href="#!">Dispose hazardous waste</a></li>
+    <li><a href="#!">How to choose safer products</a></li>
+    <li><a href="#!">Consultation</a></li>
+  </ul>
+</header>
     <main>
-      <section style="position: relative">
+      <section class="hw-hero">
   <div class="parallax-container">
     <div class="parallax">
       <img src="./parallax1.jpg" />
     </div>
   </div>
-  <div class="container center" style="position: absolute; z-index:1; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-    <h1 class="white-text" style="margin-top: 10.8rem;">
-      HOW DO I GET RID OF HAZARDOUS WASTE? 
+  <div class="container center hero-content white-text">
+    <h1 class="hero-title ">
+      HOW DO I GET RID OF HAZARDOUS WASTE?
     </h1>
-    <div class="hw-combo-box center-align">
-      <input type="text" placeholder="Search waste material" /><select>
-        <option value="" selected>Household</option>
-        <option value="1">Option 1</option>
-        <option value="2">Option 2</option>
-        <option value="3">Option 3</option> </select
-      ><button
-        class="btn waves-effect waves-light"
-        type="submit"
-        name="action"
-      >
-        <i class="material-icons">search</i>
-      </button>
-    </div>
+    <p>Other content goes here</p>
   </div>
 </section>
       
 
 <section class="center" style="background-color:#B5DE92; padding:25px">
-        <p style="font-size: 24px; margin-bottom: 15px;">
-          In 2016 we kept <strong>1,467</strong> tons of hazardous waste out of
-          the environment
-        </p>
-        <p style="margin-top:0">
-          <a href="#" style="color:#13598E">SEE OUR IMPACT</a>
-        </p>
-      </section>
+  <p style="font-size: 24px; margin-bottom: 15px;">
+    In 2016 we kept <strong>1,467</strong> tons of hazardous waste out of
+    the environment
+  </p>
+  <p style="margin-top:0">
+    <a href="#" style="color:#13598E">SEE OUR IMPACT</a>
+  </p>
+</section>
             <section>
         <div class="container" style="margin-top: 60px; margin-bottom: 60px">
           <div class="row valign-wrapper">
@@ -129,7 +116,7 @@
           </div>
         </div>
       </section>
-      <section>
+      <section class="hw-accordion-map">
         <div class="container">
           <div class="row">
             <div class="col s12 m6">
@@ -254,40 +241,40 @@
       </section>
     </main>
     <footer class="hw-footer page-footer">
-      <div class="container">
-        <div class="row" style="margin-bottom:0;">
-          <div class="col s12 m3">
-            <p>logo</p>
-            <p>&copy; King County, WA 2018</p>
-          </div>
-          <div class="col s12 m3">
-            <p>
-              as part of the <br/>
-              <strong>Local Hazardous Waste Management Program in King
-              County</strong>
-            </p>
-            <p>130 Nickerson St.<br/>
-               Suite 100<br />
-               Seattle WA 98101</p>
-          </div>
-
-          <div class="col s12 m3">   
-              <p>Contact Us</p>
-              <p>Site Map</p>
-              <p>Terms of Service</p>
-              <p>Member Login</p>
-              <p>Toolkit</p>
-          </div>
-          <div class="col s12 m3">
-            <p>Household Hazards Line<br />
-            206-296-4692</p>
-            <p>Business Waste Line<br />
-            206-296-4692</p>
-            <p><i class="material-icons">widgets</i>&nbsp;<i class="material-icons">whatshot</i></p>
-          </div>
-        </div>
+  <div class="container">
+    <div class="row" >
+      <div class="col s12 m3">
+        <p>logo</p>
+        <p>&copy; King County, WA 2018</p>
       </div>
-    </footer>
+      <div class="col s12 m3">
+        <p>
+          as part of the <br/>
+          <strong>Local Hazardous Waste Management Program in King
+          County</strong>
+        </p>
+        <p>130 Nickerson St.<br/>
+            Suite 100<br />
+            Seattle WA 98101</p>
+      </div>
+
+      <div class="col s12 m3">   
+          <p>Contact Us</p>
+          <p>Site Map</p>
+          <p>Terms of Service</p>
+          <p>Member Login</p>
+          <p>Toolkit</p>
+      </div>
+      <div class="col s12 m3">
+        <p>Household Hazards Line<br />
+        206-296-4692</p>
+        <p>Business Waste Line<br />
+        206-296-4692</p>
+        <p><i class="material-icons">widgets</i>&nbsp;<i class="material-icons">whatshot</i></p>
+      </div>
+    </div>
+  </div>
+</footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="./index.js"></script>
   </body>

@@ -1,0 +1,13 @@
+.#{$namespace}-hero {
+  position: relative;
+  .hero-content{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    h1.hero-title {
+      margin-top: 10.8rem;
+    }
+  }
+}
