@@ -2,10 +2,20 @@
   .nav {
     background-color: transparent;
     color: #000000;
-    overflow: hidden;
+    // overflow: hidden;
   }
   .nav-link {
     color: #535d62;
+  }
+  .nav-link:focus {
+    color: #047786;
+    background-color: rgba(0,0,0,0.1);
+  }
+  .nav-link:active {
+    color: #047786;
+  }
+  .nav-link:hover {
+    color: #047786;
   }
   .nav-logo {
     padding: 10px;
