@@ -155,4 +155,5 @@ i.navsearch-icon {
   background-color: #000000;
   color: #ffffff; }
   .hw-footer .row {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    display: flex; }
