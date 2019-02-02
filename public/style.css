@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Prompt");
+html {
+  font-family: Prompt; }
+
 .hw-header .nav {
   background-color: transparent;
   color: #000000;
@@ -153,7 +157,15 @@ i.navsearch-icon {
 
 .hw-footer {
   background-color: #000000;
-  color: #ffffff; }
+  color: #ffffff;
+  font-size: .9em;
+  font-weight: 100 !important; }
   .hw-footer .row {
     margin-bottom: 0;
-    display: flex; }
+    display: flex;
+    padding-top: 1em;
+    padding-bottom: 1em; }
+    .hw-footer .row .no-margin-top {
+      margin-top: 0 !important; }
+    .hw-footer .row .headquarters {
+      padding-top: 1em; }
