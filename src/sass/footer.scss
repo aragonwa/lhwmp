@@ -1,8 +1,18 @@
 .#{$namespace}-footer {
   background-color: #000000;
   color: #ffffff;
+  font-size: .9em;
+  font-weight: 100 !important;
   .row {
     margin-bottom: 0;
     display: flex;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    .no-margin-top {
+      margin-top: 0 !important;
+    }
+    .headquarters {
+      padding-top: 1em;
+    }
   }
 }
