@@ -1,0 +1,65 @@
+.#{$namespace}-nav-search {
+  form {
+    width: 174px;
+    margin-top: 10px;
+    position: absolute;
+    right:0;
+    z-index: 2;
+  }
+  .input-field {
+    visibility: hidden;
+  }
+ 
+  @media only screen and (min-width: 992px) {
+    .input-field {
+      visibility: initial;
+    }
+  }
+  .input-field > input[type='search'] {
+    height: 44px;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    width: calc(100% - 3.5rem);
+  }
+  .input-field input[type=search]:focus:not(.browser-default) {
+    background-color: #F1F4F5;
+  }
+  form:focus-within {
+    transition: width 0.3s;
+    width: 320px;
+
+  }
+  .input-field label {
+    top: -9px;
+  }
+  .material-icons,
+  .input-field label.active i {
+    color:#535D62;
+    transition: color 0.3s;
+  }
+  .input-field input[type=search] ~ .material-icons {
+    top: -10px;
+  }
+  form:focus-within .material-icons span {
+    visibility: hidden;
+  }
+
+  .input-field
+    input[type='search']:focus:not(.browser-default)
+    + label
+    i {
+    color: #000000;
+  }
+  .input-field input[type='search'] + .label-icon {
+    left: initial;
+    right: 1rem;
+  }
+
+  .input-field input[type='search'] {
+    background-color: #E6E9EB;
+    // border-radius: 7px;
+    &:hover {
+      background-color: #D5DCE0;
+    }
+  }
+}
