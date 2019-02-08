@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Prompt");
+html {
+  font-family: Prompt; }
+
 .hw-header .nav {
   background-color: transparent;
   color: #000000;
@@ -173,6 +177,14 @@ i {
 
 .hw-footer {
   background-color: #000000;
-  color: #ffffff; }
+  color: #ffffff;
+  font-size: 10pt; }
+  .hw-footer a {
+    color: #fff; }
+  .hw-footer .container {
+    width: 100%; }
   .hw-footer .row {
-    margin-bottom: 0; }
+    width: 90vw;
+    padding: 0px !important;
+    margin-bottom: 0;
+    display: flex; }
