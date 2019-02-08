@@ -60,7 +60,9 @@
   transition: color 0.3s; }
 
 .hw-nav-search .input-field input[type=search] ~ .material-icons {
-  top: -10px; }
+  top: -10px;
+  transition: none;
+  -webkit-transition: none; }
 
 .hw-nav-search form:focus-within .material-icons span {
   visibility: hidden; }

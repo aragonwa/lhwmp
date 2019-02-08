@@ -39,6 +39,8 @@
   }
   .input-field input[type=search] ~ .material-icons {
     top: -10px;
+    transition: none;
+    -webkit-transition: none;
   }
   form:focus-within .material-icons span {
     visibility: hidden;
