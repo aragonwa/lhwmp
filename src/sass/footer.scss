@@ -1,7 +1,16 @@
 .#{$namespace}-footer {
   background-color: #000000;
   color: #ffffff;
+  font-size: 10pt;
+  a { color: #fff;
+  }
+  .container {
+    width: 100%;
+  }
   .row {
+    width: 90vw;
+    padding: 0px !important;
     margin-bottom: 0;
+    display: flex;
   }
 }

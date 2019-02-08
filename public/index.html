@@ -1,281 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Hazardous Waste Program</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <header class="hw-header">
-  <nav class="nav nav-extended">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Hazardous Waste Program</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <header class="hw-header">
+    <nav class="nav nav-extended">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo"><img src="images/hazwaste-logo.png" class="responsive-img nav-logo" width="268"
+              height="48" /></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <form class="right navsearch">
+            <div class="input-field">
+              <input id="search" type="search" required class="navsearch-input" />
+              <label class="label-icon navsearch-label" for="search"><i
+                  class="material-icons navsearch-icon">search</i></label>
+            </div>
+          </form>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li>
+              <a class="dropdown-trigger nav-link" href="#!" data-target="dropdown1">Households<i
+                  class="material-icons right">arrow_drop_down</i></a>
+            </li>
+            <li>
+              <a class="dropdown-trigger nav-link" href="#!" data-target="dropdown2">Businesses<i
+                  class="material-icons right">arrow_drop_down</i></a>
+            </li>
+            <li class="right"><a class="nav-link waves-effect waves-light" href="#">News & Events</a></li>
+            <li class="right"><a class="nav-link waves-effect waves-light" href="#">Languages Resources</a></li>
+            <li class="right"><a class="nav-link waves-effect waves-light" href="#">Customer Service</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="sass.html">Sass</a></li>
+      <li><a href="badges.html">Components</a></li>
+      <li><a href="collapsible.html">Javascript</a></li>
+      <li><a href="mobile.html">Mobile</a></li>
+    </ul>
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="#!">Find hazardous waste products</a></li>
+      <li><a href="#!">Dispoal options</a></li>
+      <li><a href="#!">Safer home products</a></li>
+      <li><a href="#!">Home collection</a></li>
+      <li><a href="#!">Incentives & home inspections</a></li>
+    </ul>
+    <ul id="dropdown2" class="dropdown-content">
+      <li><a href="#!">Dispose hazardous waste</a></li>
+      <li><a href="#!">How to choose safer products</a></li>
+      <li><a href="#!">Consultation</a></li>
+    </ul>
+  </header>
+  <main>
+    <section class="hw-hero">
+      <div class="parallax-container">
+        <div class="parallax">
+          <img src="/images/body/Header2.jpg" />
+        </div>
+      </div>
+      <div class="container center hero-content white-text">
+        <h1 class="hero-title ">
+          HOW DO I GET RID OF HAZARDOUS WASTE?
+        </h1>
+        <p>Other content goes here</p>
+      </div>
+    </section>
+
+
+    <section class="center" style="background-color:#B5DE92; padding:25px">
+      <p style="font-size: 24px; margin-bottom: 15px;">
+        In 2016 we kept <strong>1,467</strong> tons of hazardous waste out of
+        the environment
+      </p>
+      <p style="margin-top:0">
+        <a href="#" style="color:#13598E">SEE OUR IMPACT</a>
+      </p>
+    </section>
+    <section>
+      <div class="container" style="margin-top: 60px; margin-bottom: 60px">
+        <div class="row valign-wrapper">
+          <div class="col s12 m6 center">
+            <i class="material-icons medium" style="color:#9ECC64">warning</i>
+            <p>Ditch the dust. Lose the lead</p>
+            <p><a href="#">Sign up for free in-home lead screening</a></p>
+          </div>
+          <div class="col s12 m6 center">
+            <i class="material-icons medium" style="color:#24A893">details</i>
+            <p>FREE waste disposal for qualifying small businesses</p>
+            <p><a href="#">Find out if your business qualifies</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="hw-accordion-map">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m6">
+            <img src="https://via.placeholder.com/583/561" height="561" width="583" class="responsive-img" />
+          </div>
+          <div class="col s12 m6">
+            <ul class="collapsible">
+              <li class="hw-nav__link">
+                <div class="collapsible-header">
+                  <div style="display:flex">
+                    <div>North Seattle</div>
+                    <div>Sunday - Tuesday</div>
+                  </div>
+
+                </div>
+                <div class="collapsible-body">
+                  <span>Lorem ipsum dolor sit amet.</span>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header">
+                  South Seattle: Sunday -
+                  Tuesday
+                </div>
+                <div class="collapsible-body">
+                  <span>Lorem ipsum dolor sit amet.</span>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header">
+                  Factoria: Sunday -
+                  Tuesday
+                </div>
+                <div class="collapsible-body">
+                  <span>Lorem ipsum dolor sit amet.</span>
+                </div>
+              </li>
+              <li class="active">
+                <div class="collapsible-header">
+                  Auburn Wastemobile:
+                  Sunday - Tuesday
+                </div>
+                <div class="collapsible-body">
+                  <span>1101 Outlet Collection Dr. SW Saturday - Sunday 10:00am -
+                    5:00pm Marine Flares not accepted at this location. Auburn
+                    Wastemobile closed Nov 24-25, Dec 29-30, 2018</span>
+                </div>
+              </li>
+            </ul>
+            <p><a href="#">Wastemobile traveling schedule</a></p>
+            <p>
+              No fee for hazardous waste disposal. Please see
+              <a href="#">waste limits and restrictions.</a> Closed on July 4,
+              Thanksgiving Day, Christmas Day and New Years Day. Check Auburn
+              Wastemobile for closures.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="center" style="background-color:#F1F4F5; padding: 38px 20px;">
+      <h1 style="font-size: 36px; color:#141C20">Stay connected</h1>
+      <p style="font-size: 18px;  color:#141C20">
+        Sign up for our latest news and information about when the Wastemobile
+        will be in your neightborhood.
+      </p>
+      <div class="hw-combo-box center-align">
+        <input type="text" placeholder="Search waste material" /><button class="btn waves-effect waves-light"
+          type="submit" name="action">
+          Sign up
+        </button>
+      </div>
+    </section>
+    <section class="hw-prefooter">
+      <ul class="center">
+        <li>
+          <a href="#"><i class="material-icons medium">donut_large</i> About us</a>
+        </li>
+        <li>
+          <a href="#"><i class="material-icons medium">donut_large</i>
+            Accountability</a>
+        </li>
+        <li>
+          <a href="#"><i class="material-icons medium">donut_large</i> Research</a>
+        </li>
+        <li>
+          <a href="#"><i class="material-icons medium">donut_large</i> Policy &
+            Advocacy</a>
+        </li>
+        <li>
+          <a href="#"><i class="material-icons medium">donut_large</i> Toolkit</a>
+        </li>
+        <li>
+          <a href="#"><i class="material-icons medium">donut_large</i> Careers</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer class="hw-footer page-footer">
     <div class="container">
-      <div class="nav-wrapper">
-        <a href="#" class="brand-logo"
-          ><img src="Logo.png" class="responsive-img nav-logo" width="268" height="48"
-        /></a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
-          ><i class="material-icons">menu</i></a
-        >
-        <form class="right navsearch" >
-          <div class="input-field">
-            <input id="search" type="search" required class="navsearch-input" />
-            <label class="label-icon navsearch-label" for="search"
-              ><i class="material-icons navsearch-icon" >search</i></label
-            >
-          </div>
-        </form>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li>
-            <a class="dropdown-trigger nav-link" href="#!" data-target="dropdown1"
-              >Households<i class="material-icons right"
-                >arrow_drop_down</i
-              ></a
-            >
-          </li>
-          <li>
-            <a class="dropdown-trigger nav-link" href="#!" data-target="dropdown2"
-              >Businesses<i class="material-icons right"
-                >arrow_drop_down</i
-              ></a
-            >
-          </li>
-          <li class="right"><a class="nav-link waves-effect waves-light" href="#">News & Events</a></li>
-          <li class="right"><a class="nav-link waves-effect waves-light" href="#">Languages Resources</a></li>
-          <li class="right"><a class="nav-link waves-effect waves-light" href="#">Customer Service</a></li>
-        </ul>
+      <div class="row">
+        <div class="col s12 m2 pull-m10">
+          <p><img src="images/king-county.gif" class="responsive-img"></p>
+        </div>
       </div>
-    </div>
-  </nav>
-  <ul class="sidenav" id="mobile-demo">
-    <li><a href="sass.html">Sass</a></li>
-    <li><a href="badges.html">Components</a></li>
-    <li><a href="collapsible.html">Javascript</a></li>
-    <li><a href="mobile.html">Mobile</a></li>
-  </ul>
-  <ul id="dropdown1" class="dropdown-content">
-    <li><a href="#!">Find hazardous waste products</a></li>
-    <li><a href="#!">Dispoal options</a></li>
-    <li><a href="#!">Safer home products</a></li>
-    <li><a href="#!">Home collection</a></li>
-    <li><a href="#!">Incentives & home inspections</a></li>
-  </ul>
-  <ul id="dropdown2" class="dropdown-content">
-    <li><a href="#!">Dispose hazardous waste</a></li>
-    <li><a href="#!">How to choose safer products</a></li>
-    <li><a href="#!">Consultation</a></li>
-  </ul>
-</header>
-    <main>
-      <section class="hw-hero">
-  <div class="parallax-container">
-    <div class="parallax">
-      <img src="/images/body/Header2.jpg" />
-    </div>
-  </div>
-  <div class="container center hero-content white-text">
-    <h1 class="hero-title ">
-      HOW DO I GET RID OF HAZARDOUS WASTE?
-    </h1>
-    <p>Other content goes here</p>
-  </div>
-</section>
-      
-
-<section class="center" style="background-color:#B5DE92; padding:25px">
-  <p style="font-size: 24px; margin-bottom: 15px;">
-    In 2016 we kept <strong>1,467</strong> tons of hazardous waste out of
-    the environment
-  </p>
-  <p style="margin-top:0">
-    <a href="#" style="color:#13598E">SEE OUR IMPACT</a>
-  </p>
-</section>
-            <section>
-        <div class="container" style="margin-top: 60px; margin-bottom: 60px">
-          <div class="row valign-wrapper">
-            <div class="col s12 m6 center">
-              <i class="material-icons medium" style="color:#9ECC64">warning</i>
-              <p>Ditch the dust. Lose the lead</p>
-              <p><a href="#">Sign up for free in-home lead screening</a></p>
-            </div>
-            <div class="col s12 m6 center">
-              <i class="material-icons medium" style="color:#24A893">details</i>
-              <p>FREE waste disposal for qualifying small businesses</p>
-              <p><a href="#">Find out if your business qualifies</a></p>
-            </div>
-          </div>
+      <div class="row">
+        <div class="col s12 m3">
+          <p>
+            <span class="grey-text text-lighten-2">as part of the </span><br />
+            <strong>Hazardous Waste Management Program in King
+              County</strong>
+          </p>
         </div>
-      </section>
-      <section class="hw-accordion-map">
-        <div class="container">
-          <div class="row">
-            <div class="col s12 m6">
-              <img
-                src="https://via.placeholder.com/583/561"
-                height="561"
-                width="583"
-                class="responsive-img"
-              />
-            </div>
-            <div class="col s12 m6">
-              <ul class="collapsible">
-                <li class="hw-nav__link">
-                  <div class="collapsible-header">
-                    <div style="display:flex">
-                      <div>North Seattle</div>
-                      <div>Sunday - Tuesday</div>
-                    </div>  
-                    
-                  </div>
-                  <div class="collapsible-body">
-                    <span>Lorem ipsum dolor sit amet.</span>
-                  </div>
-                </li>
-                <li>
-                  <div class="collapsible-header">
-                    South Seattle: Sunday -
-                    Tuesday
-                  </div>
-                  <div class="collapsible-body">
-                    <span>Lorem ipsum dolor sit amet.</span>
-                  </div>
-                </li>
-                <li>
-                  <div class="collapsible-header">
-                    Factoria: Sunday -
-                    Tuesday
-                  </div>
-                  <div class="collapsible-body">
-                    <span>Lorem ipsum dolor sit amet.</span>
-                  </div>
-                </li>
-                <li class="active">
-                  <div class="collapsible-header">
-                    Auburn Wastemobile:
-                    Sunday - Tuesday
-                  </div>
-                  <div class="collapsible-body">
-                    <span
-                      >1101 Outlet Collection Dr. SW Saturday - Sunday 10:00am -
-                      5:00pm Marine Flares not accepted at this location. Auburn
-                      Wastemobile closed Nov 24-25, Dec 29-30, 2018</span
-                    >
-                  </div>
-                </li>
-              </ul>
-              <p><a href="#">Wastemobile traveling schedule</a></p>
-              <p>
-                No fee for hazardous waste disposal. Please see
-                <a href="#">waste limits and restrictions.</a> Closed on July 4,
-                Thanksgiving Day, Christmas Day and New Years Day. Check Auburn
-                Wastemobile for closures.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section
-        class="center"
-        style="background-color:#F1F4F5; padding: 38px 20px;"
-      >
-        <h1 style="font-size: 36px; color:#141C20">Stay connected</h1>
-        <p style="font-size: 18px;  color:#141C20">
-          Sing up for our latest news and information about when the Wastemobile
-          will be in your neightborhood.
-        </p>
-        <div class="hw-combo-box center-align">
-          <input type="text" placeholder="Search waste material" /><button
-            class="btn waves-effect waves-light"
-            type="submit"
-            name="action"
-          >
-            Sign up
-          </button>
-        </div>
-      </section>
-      <section class="hw-prefooter">
-        <ul class="center">
-          <li>
-            <a href="#"
-              ><i class="material-icons medium">donut_large</i> About us</a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><i class="material-icons medium">donut_large</i>
-              Accountability</a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><i class="material-icons medium">donut_large</i> Research</a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><i class="material-icons medium">donut_large</i> Policy &
-              Advocacy</a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><i class="material-icons medium">donut_large</i> Toolkit</a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><i class="material-icons medium">donut_large</i> Careers</a
-            >
-          </li>
-        </ul>
-      </section>
-    </main>
-    <footer class="hw-footer page-footer">
-  <div class="container">
-    <div class="row" >
-      <div class="col s12 m3">
-        <p>logo</p>
-        <p>&copy; King County, WA 2018</p>
-      </div>
-      <div class="col s12 m3">
-        <p>
-          as part of the <br/>
-          <strong>Local Hazardous Waste Management Program in King
-          County</strong>
-        </p>
-        <p>130 Nickerson St.<br/>
-            Suite 100<br />
+        <div class="col s12 m3">
+          <p class="grey-text text-lighten-2">130 Nickerson St. Suite 100<br />
             Seattle WA 98101</p>
+        </div>
+        <div class="col s12 m3">
+          <p><span class="grey-text text-lighten-2">Hazardous Waste Line</span><br />
+            <strong>206-296-4692</strong></p>
+        </div>
+        <div class="col s12 m3">
+          <ul>
+            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="36" height="36"
+                  viewBox="0 0 24 24" style="fill: #000; stroke: #fff">
+                  <title>Instagram</title>
+                  <path
+                    d="M 8 3 C 5.239 3 3 5.239 3 8 L 3 16 C 3 18.761 5.239 21 8 21 L 16 21 C 18.761 21 21 18.761 21 16 L 21 8 C 21 5.239 18.761 3 16 3 L 8 3 z M 18 5 C 18.552 5 19 5.448 19 6 C 19 6.552 18.552 7 18 7 C 17.448 7 17 6.552 17 6 C 17 5.448 17.448 5 18 5 z M 12 7 C 14.761 7 17 9.239 17 12 C 17 14.761 14.761 17 12 17 C 9.239 17 7 14.761 7 12 C 7 9.239 9.239 7 12 7 z M 12 9 A 3 3 0 0 0 9 12 A 3 3 0 0 0 12 15 A 3 3 0 0 0 15 12 A 3 3 0 0 0 12 9 z">
+                  </path>
+                </svg></a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
       </div>
-
-      <div class="col s12 m3">   
-          <p>Contact Us</p>
-          <p>Site Map</p>
-          <p>Terms of Service</p>
-          <p>Member Login</p>
-          <p>Toolkit</p>
-      </div>
-      <div class="col s12 m3">
-        <p>Household Hazards Line<br />
-        206-296-4692</p>
-        <p>Business Waste Line<br />
-        206-296-4692</p>
-        <p><i class="material-icons">widgets</i>&nbsp;<i class="material-icons">whatshot</i></p>
+      <div class="row">
+        <div class="col s12 m3 pull-m9">
+          <p>
+            <script type="text/javascript">
+              document.write('\<a href="https://kingcounty.gov/about/website/termsofuse" class="grey-text text-lighten-1"> &copy; King County, WA ' + new Date().getFullYear() + '\</a>')
+            </script>
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-</footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="./index.js"></script>
-  </body>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./index.js"></script>
+</body>
+
 </html>
