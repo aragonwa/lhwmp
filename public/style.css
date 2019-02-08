@@ -158,14 +158,13 @@ i.navsearch-icon {
 .hw-footer {
   background-color: #000000;
   color: #ffffff;
-  font-size: .9em;
-  font-weight: 100 !important; }
+  font-size: 10pt; }
+  .hw-footer a {
+    color: #fff; }
+  .hw-footer .container {
+    width: 100%; }
   .hw-footer .row {
+    width: 90vw;
+    padding: 0px !important;
     margin-bottom: 0;
-    display: flex;
-    padding-top: 1em;
-    padding-bottom: 1em; }
-    .hw-footer .row .no-margin-top {
-      margin-top: 0 !important; }
-    .hw-footer .row .headquarters {
-      padding-top: 1em; }
+    display: flex; }
