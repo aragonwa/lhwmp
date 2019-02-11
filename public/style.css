@@ -156,9 +156,10 @@ i.navsearch-icon {
     display: block; }
 
 .hw-footer {
-  background-color: #000000;
+  background-color: #141C20;
   color: #ffffff;
-  font-size: 10pt; }
+  font-size: 10.5pt;
+  line-height: 16pt; }
   .hw-footer a {
     color: #fff; }
   .hw-footer .container {
