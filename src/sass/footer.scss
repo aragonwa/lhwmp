@@ -13,4 +13,27 @@
     padding: 0px !important;
     margin-bottom: 0;
   }
+  a { 
+    color: #B6C0C4; 
+    font-family: "Prompt SemiBold", sans-serif;
+  }
+  a:visited { 
+    color: #7E898E; 
+  }
+  a:hover { 
+    color: #ffffff; 
+  }
+  a:active { 
+    color: #ffffff; 
+  }
+  a:focus { 
+    background-color: #535D62;
+    color: #ffffff; 
+  }
+  .copyright {
+    color: #7E898E;
+  }
+  .semibold {
+    font-family: "Prompt SemiBold", sans-serif;
+  }
 }

@@ -189,3 +189,19 @@ i {
     width: 90vw;
     padding: 0px !important;
     margin-bottom: 0; }
+  .hw-footer a {
+    color: #B6C0C4;
+    font-family: "Prompt SemiBold", sans-serif; }
+  .hw-footer a:visited {
+    color: #7E898E; }
+  .hw-footer a:hover {
+    color: #ffffff; }
+  .hw-footer a:active {
+    color: #ffffff; }
+  .hw-footer a:focus {
+    background-color: #535D62;
+    color: #ffffff; }
+  .hw-footer .copyright {
+    color: #7E898E; }
+  .hw-footer .semibold {
+    font-family: "Prompt SemiBold", sans-serif; }
