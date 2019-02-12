@@ -1,18 +1,19 @@
 .#{$namespace}-prefooter {
   background-color: #b7ebf1;
   padding: 25px 15px;
-  ul {
+  .row {
     margin: 0;
-    display: flex;
+    //display: flex;
     justify-content: center;
   }
-  ul li {
+  .col {
     width: 140px;
+    justify-content: center;
   }
-  ul li a {
+ .col a {
     color: #141c20;
   }
-  ul li i.material-icons {
+  .col i.material-icons {
     display: block;
   }
 }
