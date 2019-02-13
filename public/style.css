@@ -175,6 +175,12 @@ i {
     color: #141c20; }
   .hw-prefooter .col i.material-icons {
     display: block; }
+  .hw-prefooter .prefooter-icon {
+    display: block;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+    margin-bottom: .5em; }
 
 .hw-footer {
   background-color: #141C20;
