@@ -162,54 +162,55 @@ i {
   transition: background-color 0.7s ease;
   background-color: #e3f3e9; }
 
+nav#sub-navigation {
+  height: auto;
+  line-height: normal; }
+
 .hw-prefooter {
-  background-color: #b7ebf1;
-  padding: 25px 15px; }
+  background-color: #b7ebf1; }
   .hw-prefooter .row {
-    margin: 0;
+    margin: 0px;
     justify-content: center; }
   .hw-prefooter .col {
-    width: 140px;
-    justify-content: center; }
+    line-height: 24px;
+    justify-content: center;
+    padding: 0; }
   .hw-prefooter .col a {
-    color: #141c20; }
+    color: #141c20;
+    padding: 24px 0px 12px 0px; }
   .hw-prefooter .col i.material-icons {
     display: block; }
   .hw-prefooter .prefooter-icon {
     display: block;
     margin: auto;
-    width: 55px;
-    height: 55px;
-    margin-bottom: .2em;
-    padding-right: 10px;
-    padding-left: 10px; }
+    width: 36px;
+    height: 36px;
+    margin-bottom: .2em; }
 
 .hw-footer {
   background-color: #141C20;
   color: #ffffff;
-  font-size: 10.5pt;
-  line-height: 16pt; }
-  .hw-footer a {
-    color: #fff; }
+  font-size: 14px;
+  line-height: 24px; }
   .hw-footer .container {
     width: 100%; }
-  .hw-footer .row {
-    width: 90vw;
-    padding: 0px !important;
-    margin-bottom: 0; }
-  .hw-footer a {
-    color: #B6C0C4;
-    font-family: "Prompt SemiBold", sans-serif; }
-  .hw-footer a:visited {
-    color: #7E898E; }
-  .hw-footer a:hover {
-    color: #ffffff; }
-  .hw-footer a:active {
-    color: #ffffff; }
-  .hw-footer a:focus {
-    background-color: #535D62;
-    color: #ffffff; }
-  .hw-footer .copyright {
-    color: #7E898E; }
-  .hw-footer .semibold {
-    font-family: "Prompt SemiBold", sans-serif; }
+    .hw-footer .container .row {
+      width: 90vw;
+      padding: 0px !important;
+      margin-bottom: 0px; }
+      .hw-footer .container .row a {
+        color: #B6C0C4;
+        font-weight: 500; }
+      .hw-footer .container .row a:visited {
+        color: #7E898E; }
+      .hw-footer .container .row a:hover {
+        color: #ffffff; }
+      .hw-footer .container .row a:active {
+        color: #ffffff; }
+      .hw-footer .container .row a:focus {
+        background-color: #535D62;
+        color: #ffffff; }
+      .hw-footer .container .row .copyright {
+        color: #7E898E; }
+      .hw-footer .container .row .footer-bold {
+        font-weight: 700; }

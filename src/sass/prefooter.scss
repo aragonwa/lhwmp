@@ -1,17 +1,21 @@
+nav#sub-navigation {
+  height: auto;
+  line-height: normal;
+}
 .#{$namespace}-prefooter {
   background-color: #b7ebf1;
-  padding: 25px 15px;
   .row {
-    margin: 0;
-    //display: flex;
+    margin: 0px;
     justify-content: center;
   }
   .col {
-    width: 140px;
+    line-height: 24px;
     justify-content: center;
+    padding: 0;
   }
  .col a {
     color: #141c20;
+    padding: 24px 0px 12px 0px;
   }
   .col i.material-icons {
     display: block;
@@ -19,10 +23,8 @@
   .prefooter-icon {
     display: block;
     margin: auto;
-    width: 55px;
-    height: 55px;
+    width: 36px;
+    height: 36px;
     margin-bottom: .2em;
-    padding-right: 10px;
-    padding-left: 10px;
   }
 }
