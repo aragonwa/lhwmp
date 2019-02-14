@@ -162,12 +162,11 @@ i {
   transition: background-color 0.7s ease;
   background-color: #e3f3e9; }
 
-nav#sub-navigation {
-  height: auto;
-  line-height: normal; }
-
 .hw-prefooter {
   background-color: #b7ebf1; }
+  .hw-prefooter nav#sub-navigation {
+    height: auto;
+    line-height: normal; }
   .hw-prefooter .row {
     margin: 0px;
     justify-content: center; }

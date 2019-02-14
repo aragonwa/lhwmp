@@ -1,9 +1,9 @@
-nav#sub-navigation {
-  height: auto;
-  line-height: normal;
-}
 .#{$namespace}-prefooter {
   background-color: #b7ebf1;
+  nav#sub-navigation {
+    height: auto;
+    line-height: normal;
+  }
   .row {
     margin: 0px;
     justify-content: center;
