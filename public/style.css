@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Prompt");
-@import url("https://fonts.googleapis.com/css?family=Lora");
+@import url("https://fonts.googleapis.com/css?family=Prompt:200,300,400,500,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Lora:200,300,400,500,600,700,800");
 html {
   font-family: Prompt; }
 
@@ -166,7 +166,8 @@ i {
   background-color: #b7ebf1; }
   .hw-prefooter nav#sub-navigation {
     height: auto;
-    line-height: normal; }
+    line-height: normal;
+    font-weight: 500; }
   .hw-prefooter .row {
     margin: 0px;
     justify-content: center; }
