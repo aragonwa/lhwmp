@@ -6,7 +6,9 @@ nav {
 }
 
 /* fonts */
-.dropdowns {font-family: 'Prompt', sans-serif; }
+.dropdowns {
+    font-family: 'Prompt', sans-serif; 
+}
 
 /* colors */
 /* ------ */
