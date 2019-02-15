@@ -1,53 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Hazardous Waste Program</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <header class="hw-header">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Hazardous Waste Program</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <header class="hw-header">
   <nav class="nav nav-extended">
     <div class="container">
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo"
-          ><img src="Logo.png" class="responsive-img nav-logo" width="268" height="48"
-        /></a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
-          ><i class="material-icons">menu</i></a
-        >
-        <form class="right navsearch" >
-          <div class="input-field">
-            <input id="search" type="search" required class="navsearch-input" />
-            <label class="label-icon navsearch-label" for="search"
-              ><i class="material-icons navsearch-icon" >search</i></label
-            >
-          </div>
-        </form>
+        <a href="#" class="brand-logo"><img src="images/hazwaste-logo.png" class="responsive-img nav-logo" width="268"
+            height="48" /></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <div class="hw-nav-search">
+  <form class="right" >
+    <div class="input-field">
+      <input id="search" type="search" required />
+      <label class="label-icon" for="search"
+        ><i class="material-icons" >search</i></label
+      >
+      <i class="material-icons" >close</i>
+    </div>
+  </form>
+<div>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li>
-            <a class="dropdown-trigger nav-link" href="#!" data-target="dropdown1"
-              >Households<i class="material-icons right"
-                >arrow_drop_down</i
-              ></a
-            >
+            <a class="dropdown-trigger nav-link" href="#!" data-target="dropdown1">Households<i
+                class="material-icons right">arrow_drop_down</i></a>
           </li>
           <li>
-            <a class="dropdown-trigger nav-link" href="#!" data-target="dropdown2"
-              >Businesses<i class="material-icons right"
-                >arrow_drop_down</i
-              ></a
-            >
+            <a class="dropdown-trigger nav-link" href="#!" data-target="dropdown2">Businesses<i
+                class="material-icons right">arrow_drop_down</i></a>
           </li>
           <li class="right"><a class="nav-link waves-effect waves-light" href="#">News & Events</a></li>
           <li class="right"><a class="nav-link waves-effect waves-light" href="#">Languages Resources</a></li>
@@ -75,11 +65,11 @@
     <li><a href="#!">Consultation</a></li>
   </ul>
 </header>
-    <main>
-      <section class="hw-hero">
+  <main>
+    <section class="hw-hero">
   <div class="parallax-container">
     <div class="parallax">
-      <img src="./parallax1.jpg" />
+      <img src="/images/body/Header2.jpg" />
     </div>
   </div>
   <div class="container center hero-content white-text">
@@ -89,7 +79,7 @@
     <p>Other content goes here</p>
   </div>
 </section>
-      
+    
 
 <section class="center" style="background-color:#B5DE92; padding:25px">
   <p style="font-size: 24px; margin-bottom: 15px;">
@@ -100,7 +90,7 @@
     <a href="#" style="color:#13598E">SEE OUR IMPACT</a>
   </p>
 </section>
-            <section>
+          <section>
         <div class="container" style="margin-top: 60px; margin-bottom: 60px">
           <div class="row valign-wrapper">
             <div class="col s12 m6 center">
@@ -116,7 +106,7 @@
           </div>
         </div>
       </section>
-      <section class="hw-accordion-map">
+    <section class="hw-accordion-map">
         <div class="container">
           <div class="row">
             <div class="col s12 m6">
@@ -184,98 +174,91 @@
           </div>
         </div>
       </section>
-      <section
-        class="center"
-        style="background-color:#F1F4F5; padding: 38px 20px;"
-      >
-        <h1 style="font-size: 36px; color:#141C20">Stay connected</h1>
-        <p style="font-size: 18px;  color:#141C20">
-          Sing up for our latest news and information about when the Wastemobile
-          will be in your neightborhood.
-        </p>
-        <div class="hw-combo-box center-align">
-          <input type="text" placeholder="Search waste material" /><button
-            class="btn waves-effect waves-light"
-            type="submit"
-            name="action"
-          >
-            Sign up
-          </button>
-        </div>
-      </section>
-      <section class="hw-prefooter">
-        <ul class="center">
-          <li>
-            <a href="#"
-              ><i class="material-icons medium">donut_large</i> About us</a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><i class="material-icons medium">donut_large</i>
-              Accountability</a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><i class="material-icons medium">donut_large</i> Research</a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><i class="material-icons medium">donut_large</i> Policy &
-              Advocacy</a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><i class="material-icons medium">donut_large</i> Toolkit</a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><i class="material-icons medium">donut_large</i> Careers</a
-            >
-          </li>
-        </ul>
-      </section>
-    </main>
-    <footer class="hw-footer page-footer">
+    <section class="center" style="background-color:#F1F4F5; padding: 38px 20px;">
+  <h1 style="font-size: 36px; color:#141C20">Stay connected</h1>
+  <p style="font-size: 18px;  color:#141C20">
+    Sign up for our latest news and information about when the Wastemobile
+    will be in your neightborhood.
+  </p>
+  <div class="hw-combo-box center-align">
+    <input type="text" placeholder="Search waste material" /><button class="btn waves-effect waves-light" type="submit"
+      name="action">
+      Sign up
+    </button>
+  </div>
+</section>
+    <div class="hw-prefooter">
+  <nav role="navigation" id="sub-navigation">
+    <div class="container">
+      <ul class="row center">
+        <li class="col s6 m4 l2">
+          <a href="#"><img src="images/prefooter/hazwaste-logo-black.svg" class="prefooter-icon" alt=""> About us</a>
+        </li>
+        <li class="col s6 m4 l2">
+          <a href="#"><img src="images/prefooter/check.svg" class="prefooter-icon" alt="">
+            Accountability</a>
+        </li>
+        <li class="col s6 m4 l2">
+          <a href="#"><img src="images/prefooter/notebook.svg" class="prefooter-icon" alt=""> Research</a>
+        </li>
+        <li class="col s6 m4 l2">
+          <a href="#"><img src="images/prefooter/globe.svg" class="prefooter-icon" alt="">
+            Policy&nbsp;&amp;&nbsp;Advocacy</a>
+        </li>
+        <li class="col s6 m4 l2">
+          <a href="#"><img src="images/prefooter/wrench.svg" class="prefooter-icon" alt=""> Toolkit</a>
+        </li>
+        <li class="col s6 m4 l2">
+          <a href="#"><img src="images/prefooter/briefcase.svg" class="prefooter-icon" alt=""> Careers</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+  </main>
+  <footer class="hw-footer page-footer">
   <div class="container">
-    <div class="row" >
-      <div class="col s12 m3">
-        <p>logo</p>
-        <p>&copy; King County, WA 2018</p>
+    <div class="row">
+      <div class="col s6 m3 l2">
+        <p><img src="images/king-county.svg" class="responsive-img"></p>
       </div>
-      <div class="col s12 m3">
-        <p>
-          as part of the <br/>
-          <strong>Local Hazardous Waste Management Program in King
-          County</strong>
+    </div>
+    <div class="row">
+      <div class="col s12 m6 l3">
+        <p>as part of the<br />
+          <strong class="footer-bold">Hazardous Waste Management Program in King
+            County</strong>
         </p>
-        <p>130 Nickerson St.<br/>
-            Suite 100<br />
-            Seattle WA 98101</p>
       </div>
-
-      <div class="col s12 m3">   
-          <p>Contact Us</p>
-          <p>Site Map</p>
-          <p>Terms of Service</p>
-          <p>Member Login</p>
-          <p>Toolkit</p>
+      <div class="col s12 m6 l3">
+        <p class="footer-bold">130 Nickerson St. Suite 100<br />
+          Seattle WA 98101</p>
       </div>
-      <div class="col s12 m3">
-        <p>Household Hazards Line<br />
-        206-296-4692</p>
-        <p>Business Waste Line<br />
-        206-296-4692</p>
-        <p><i class="material-icons">widgets</i>&nbsp;<i class="material-icons">whatshot</i></p>
+      <div class="col s12 m6 l3">
+        <p>Hazardous Waste Line<br />
+          <strong class="footer-bold">206-296-4692</strong></p>
+      </div>
+      <div class="col s12 m6 l3">
+        <ul>
+          <li><a href="#"><img src="images/instagram-icon.svg" alt="Instagram"></a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <p class="copyright">
+          <script type="text/javascript">
+            document.write('\<a href="https://kingcounty.gov/about/website/termsofuse" class="copyright"> &copy; King County, WA ' + new Date().getFullYear() + '\</a>')
+          </script>
+        </p>
       </div>
     </div>
   </div>
 </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="./index.js"></script>
-  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./index.js"></script>
+</body>
+
 </html>
