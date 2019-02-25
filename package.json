@@ -8,7 +8,10 @@
     "server": "lite-server --baseDir=public",
     "build:ejs": "node scripts/build.js",
     "build:sass": "node-sass src/sass/index.scss public/style.css",
-    "watch": "nodemon --exec \"npm run build:ejs && npm run build:sass\" --watch src --ext ejs,scss",
+    "build:js": "npm run concat && npm run uglify",
+    "concat": "concat -o ./public/index.js ./src/scripts/**",
+    "uglify": "uglifyjs ./public/index.js -o ./public/index.js",
+    "watch": "nodemon --exec \"npm run build:ejs && npm run build:sass && npm run build:js\" --watch src --ext ejs,scss,js",
     "deploy": "surge public --domain kc-lhwmp.surge.sh",
     "test": "echo \"Error: no test specified.\""
   },
@@ -16,14 +19,14 @@
   "license": "ISC",
   "devDependencies": {
     "chalk": "^2.4.2",
+    "concat": "^1.0.3",
     "concurrently": "^4.1.0",
+    "ejs": "^2.6.1",
     "lite-server": "^2.4.0",
     "node-sass": "^4.11.0",
     "nodemon": "^1.18.9",
     "surge": "^0.20.1",
-    "ejs": "^2.6.1"
+    "uglify-js": "^3.4.9"
   },
-  "dependencies": {
-
-  }
+  "dependencies": {}
 }

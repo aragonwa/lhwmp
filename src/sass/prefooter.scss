@@ -1,18 +1,31 @@
 .#{$namespace}-prefooter {
-  background-color: #b7ebf1;
-  padding: 25px 15px;
-  ul {
-    margin: 0;
-    display: flex;
+  nav#sub-navigation {
+    height: auto;
+    line-height: normal;
+    font-weight: 500;
+    background-color: #b7ebf1;
+  }
+  .row {
+    margin: 0px;
     justify-content: center;
   }
-  ul li {
-    width: 140px;
+  .col {
+    line-height: 24px;
+    justify-content: center;
+    padding: 0;
   }
-  ul li a {
+ .col a {
     color: #141c20;
+    padding: 24px 0px 12px 0px;
   }
-  ul li i.material-icons {
+  .col i.material-icons {
     display: block;
+  }
+  .prefooter-icon {
+    display: block;
+    margin: auto;
+    width: 36px;
+    height: 36px;
+    margin-bottom: .2em;
   }
 }

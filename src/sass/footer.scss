@@ -1,7 +1,37 @@
 .#{$namespace}-footer {
-  background-color: #000000;
+  background-color: #141C20;
   color: #ffffff;
-  .row {
-    margin-bottom: 0;
-  }
+  font-size: 14px;
+  line-height: 24px;
+  .container {
+    width: 100%;
+    .row {
+      width: 90%;
+      padding: 0px !important;
+      margin-bottom: 0px;
+        a { 
+          color: #B6C0C4; 
+          font-weight: 500;
+        }
+        a:visited { 
+          color: #7E898E; 
+        }
+        a:hover { 
+          color: #ffffff; 
+        }
+        a:active { 
+          color: #ffffff; 
+        }
+        a:focus { 
+          background-color: #535D62;
+          color: #ffffff; 
+        }
+        .copyright {
+          color: #7E898E;
+        }
+        .footer-bold {
+          font-weight: 700;
+        }
+    }
+}
 }

@@ -20,34 +20,28 @@
   <nav class="nav nav-extended">
     <div class="container">
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo"
-          ><img src="Logo.png" class="responsive-img nav-logo" width="268" height="48"
-        /></a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
-          ><i class="material-icons">menu</i></a
-        >
-        <form class="right navsearch" >
-          <div class="input-field">
-            <input id="search" type="search" required class="navsearch-input" />
-            <label class="label-icon navsearch-label" for="search"
-              ><i class="material-icons navsearch-icon" >search</i></label
-            >
-          </div>
-        </form>
+        <a href="#" class="brand-logo"><img src="images/hazwaste-logo.png" class="responsive-img nav-logo" width="268"
+            height="48" /></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <div class="hw-nav-search">
+  <form class="right" >
+    <div class="input-field">
+      <input id="search" type="search" required />
+      <label class="label-icon" for="search"
+        ><i class="material-icons" >search</i></label
+      >
+      <i class="material-icons" >close</i>
+    </div>
+  </form>
+<div>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li>
-            <a class="dropdown-trigger nav-link" href="#!" data-target="dropdown1"
-              >Households<i class="material-icons right"
-                >arrow_drop_down</i
-              ></a
-            >
+            <a class="dropdown-trigger nav-link" href="#!" data-target="dropdown1">Households<i
+                class="material-icons right">arrow_drop_down</i></a>
           </li>
           <li>
-            <a class="dropdown-trigger nav-link" href="#!" data-target="dropdown2"
-              >Businesses<i class="material-icons right"
-                >arrow_drop_down</i
-              ></a
-            >
+            <a class="dropdown-trigger nav-link" href="#!" data-target="dropdown2">Businesses<i
+                class="material-icons right">arrow_drop_down</i></a>
           </li>
           <li class="right"><a class="nav-link waves-effect waves-light" href="#">News & Events</a></li>
           <li class="right"><a class="nav-link waves-effect waves-light" href="#">Languages Resources</a></li>
@@ -80,7 +74,7 @@
       <section class="hw-hero">
   <div class="parallax-container">
     <div class="parallax">
-      <img src="./parallax1.jpg" />
+      <img src="/images/body/Header2.jpg" />
     </div>
   </div>
   <div class="container center hero-content white-text">
@@ -93,35 +87,41 @@
     </main>
     <footer class="hw-footer page-footer">
   <div class="container">
-    <div class="row" >
-      <div class="col s12 m3">
-        <p>logo</p>
-        <p>&copy; King County, WA 2018</p>
+    <div class="row">
+      <div class="col s6 m3 l2">
+        <p><img src="images/king-county.svg" class="responsive-img"></p>
       </div>
-      <div class="col s12 m3">
-        <p>
-          as part of the <br/>
-          <strong>Local Hazardous Waste Management Program in King
-          County</strong>
+    </div>
+    <div class="row">
+      <div class="col s12 m6 l3">
+        <p>as part of the<br />
+          <strong class="footer-bold">Hazardous Waste Management Program in King
+            County</strong>
         </p>
-        <p>130 Nickerson St.<br/>
-            Suite 100<br />
-            Seattle WA 98101</p>
       </div>
-
-      <div class="col s12 m3">   
-          <p>Contact Us</p>
-          <p>Site Map</p>
-          <p>Terms of Service</p>
-          <p>Member Login</p>
-          <p>Toolkit</p>
+      <div class="col s12 m6 l3">
+        <p class="footer-bold">130 Nickerson St. Suite 100<br />
+          Seattle WA 98101</p>
       </div>
-      <div class="col s12 m3">
-        <p>Household Hazards Line<br />
-        206-296-4692</p>
-        <p>Business Waste Line<br />
-        206-296-4692</p>
-        <p><i class="material-icons">widgets</i>&nbsp;<i class="material-icons">whatshot</i></p>
+      <div class="col s12 m6 l3">
+        <p>Hazardous Waste Line<br />
+          <strong class="footer-bold">206-296-4692</strong></p>
+      </div>
+      <div class="col s12 m6 l3">
+        <ul>
+          <li><a href="#"><img src="images/instagram-icon.svg" alt="Instagram"></a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <p class="copyright">
+          <script type="text/javascript">
+            document.write('\<a href="https://kingcounty.gov/about/website/termsofuse" class="copyright"> &copy; King County, WA ' + new Date().getFullYear() + '\</a>')
+          </script>
+        </p>
       </div>
     </div>
   </div>
