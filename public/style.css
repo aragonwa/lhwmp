@@ -336,7 +336,7 @@ i {
   .hw-footer .container {
     width: 100%; }
     .hw-footer .container .row {
-      width: 90vw;
+      width: 90%;
       padding: 0px !important;
       margin-bottom: 0px; }
       .hw-footer .container .row a {
