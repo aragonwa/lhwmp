@@ -169,6 +169,20 @@ i {
   .hw-factoid .factoid-link {
     color: #13598E; }
 
+.hw-signup {
+  background-color: #F1F4F5;
+  padding: 38px 20px 80px 20px; }
+  .hw-signup .signup-title {
+    font-size: 36px;
+    color: #141C20; }
+  .hw-signup .signup-text {
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: #141C20; }
+  .hw-signup .hw-combo-box input {
+    background-color: #FFFFFF; }
+
 .hw-nav {
   background-color: #ffffff;
   width: auto;
