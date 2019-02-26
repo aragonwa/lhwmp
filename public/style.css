@@ -332,6 +332,16 @@ i {
   transition: background-color 0.7s ease;
   background-color: #e3f3e9; }
 
+.hw-cards .cards-container {
+  margin-top: 60px;
+  margin-bottom: 60px; }
+
+.hw-cards .cards-icon .cards-icon-green {
+  color: #9ECC64; }
+
+.hw-cards .cards-icon .cards-icon-blue {
+  color: #24A893; }
+
 .hw-prefooter nav#sub-navigation {
   height: auto;
   line-height: normal;
