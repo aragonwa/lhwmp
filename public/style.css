@@ -164,6 +164,18 @@ i {
   .hw-combo-box .select-wrapper .select-dropdown.dropdown-trigger {
     width: 161px; } }
 
+.hw-factoid {
+  padding: 24px;
+  margin: 0px; }
+  .hw-factoid.factoid-green {
+    background-color: #B5DE92; }
+  .hw-factoid .factoid-text {
+    font-size: 24px;
+    margin-bottom: 15px;
+    margin-top: 0px; }
+  .hw-factoid .factoid-link {
+    color: #13598E; }
+
 .hw-nav {
   background-color: #ffffff;
   width: auto;
