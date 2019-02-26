@@ -50,7 +50,7 @@ nav .brand-logo {
 
 .hw-nav ul li a {
   display: block;
-  padding: 0px 10px 20px 15px;
+  padding: 0px 10px 0px 15px;
   color: #666;
   text-decoration: none;
 }
@@ -58,6 +58,7 @@ nav .brand-logo {
 /* second level navigation styles */
 
 .hw-nav ul ul {
+  z-index: 2;
   background-color: #f1f4f5;
   border-radius: 0px;
   padding: 0;
@@ -76,6 +77,7 @@ nav .brand-logo {
 }
 
 .hw-nav ul ul li a {
+  line-height: normal;
   padding: 14px 0px 14px 10px;
 }
 
