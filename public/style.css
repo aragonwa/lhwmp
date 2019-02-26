@@ -5,14 +5,15 @@ html {
 
 .hw-header .nav {
   background-color: transparent;
-  color: #000000;
-  height: 52px; }
+  color: #000000; }
 
 .hw-header .nav-link {
   color: #535d62; }
 
 .hw-header .nav-logo {
-  padding: 10px; }
+  float: left;
+  padding: 0px;
+  margin: 0px; }
 
 .hw-header #nav-mobile {
   margin-right: 178px; }
@@ -162,14 +163,15 @@ i {
   width: auto;
   height: auto;
   line-height: auto !important;
+  /* Overwrite Materialize Styles */
   /* fonts */
   /* colors */
   /* ------ */
   /* togle menu button for narrow screens */
   /* general navigation background colors */
   /* general navigation link font color */
-  /* first level items borders */
-  /* first level items borders */
+  /* first level nav */
+  /* first level items  */
   /* navigation hover colors */
   /* navigation hover colors */
   /* second level navigation colors */
@@ -186,6 +188,22 @@ i {
   /* general paddings and other stuff */
   /* parents that have submenus */
   /* small screen adjustments*/ }
+  .hw-nav ul {
+    padding: 0; }
+  .hw-nav nav {
+    width: 1280px !important; }
+  .hw-nav .hw-nav-wrapper {
+    width: 1280px; }
+  .hw-nav .nav-logo {
+    position: relative !important;
+    float: left; }
+  .hw-nav .hw-nav-container {
+    margin: 0 auto;
+    max-width: 1280px !important;
+    width: 90%; }
+  .hw-nav .hw-nav-search {
+    display: block;
+    float: left; }
   .hw-nav .dropdowns {
     font-family: 'Prompt', sans-serif; }
   .hw-nav .toggleMenu {
@@ -197,6 +215,8 @@ i {
     color: #666; }
   .hw-nav .hw-nav > li {
     background-color: #ffffff;
+    padding: 0px 0px 0px 0px; }
+  .hw-nav .hw-nav li {
     padding: 0px 0px 0px 0px; }
   .hw-nav .hw-nav > li:hover {
     background-color: #F1F4F5; }
@@ -232,11 +252,6 @@ i {
   @media screen and (max-width: 768px) {
     .hw-nav .hw-nav ul {
       width: 100%; } }
-  .hw-nav .dropdowns nav, .hw-nav .dropdowns ul, .hw-nav .dropdowns li, .hw-nav .dropdowns a {
-    margin: 0;
-    padding: 0; }
-  .hw-nav .dropdowns a {
-    text-decoration: none; }
   .hw-nav .toggleMenu {
     display: none; }
   .hw-nav .hw-nav {
