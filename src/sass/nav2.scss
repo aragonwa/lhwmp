@@ -4,7 +4,10 @@ nav .brand-logo {
 }
 
 .hw-nav {
-  font-family: 'Prompt', sans-serif;
+  // font-family: 'Prompt', sans-serif;
+  margin-left: 250px;
+
+
 }
 
 .hw-nav li > ul {
@@ -47,7 +50,7 @@ nav .brand-logo {
 
 .hw-nav ul li a {
   display: block;
-  padding: 20px 10px 20px 15px;
+  padding: 0px 10px 20px 15px;
   color: #666;
   text-decoration: none;
 }

@@ -10,10 +10,8 @@ html {
 .hw-header .nav-link {
   color: #535d62; }
 
-.hw-header .nav-logo {
-  float: left;
-  padding: 0px;
-  margin: 0px; }
+.hw-header .brand-logo {
+  z-index: 2; }
 
 .hw-header #nav-mobile {
   margin-right: 178px; }
@@ -160,7 +158,7 @@ i {
 
 /* Logo */
 .hw-nav {
-  font-family: 'Prompt', sans-serif; }
+  margin-left: 250px; }
 
 .hw-nav li > ul {
   display: none; }
@@ -195,7 +193,7 @@ i {
 
 .hw-nav ul li a {
   display: block;
-  padding: 20px 10px 20px 15px;
+  padding: 0px 10px 20px 15px;
   color: #666;
   text-decoration: none; }
 
