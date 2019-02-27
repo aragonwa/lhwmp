@@ -9,7 +9,7 @@
     "build:ejs": "node scripts/build.js",
     "build:sass": "node-sass src/sass/index.scss public/style.css",
     "build:js": "npm run concat && npm run uglify",
-    "concat": "concat -o ./public/index.js ./src/scripts/materialize.min.js ./src/scripts/MD-init.js ./src/scripts/global-search.js",
+    "concat": "concat -o ./public/index.js ./node_modules/materialize-css/dist/js/materialize.min.js ./src/scripts/MD-init.js ./src/scripts/global-search.js",
     "uglify": "uglifyjs ./public/index.js -o ./public/index.js",
     "watch": "nodemon --exec \"npm run build:ejs && npm run build:sass && npm run build:js\" --watch src --ext ejs,scss,js",
     "deploy": "surge public --domain kc-lhwmp.surge.sh",
@@ -28,5 +28,7 @@
     "surge": "^0.20.1",
     "uglify-js": "^3.4.9"
   },
-  "dependencies": {}
+  "dependencies": {
+    "materialize-css": "^1.0.0-rc.2"
+  }
 }

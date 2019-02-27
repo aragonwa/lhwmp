@@ -4,7 +4,7 @@
 // Ex: .#{$namespace}-header === .hw-header
 $namespace: "hw";
 
-@import 'materialize/materialize.scss';
+@import '../../node_modules/materialize-css/sass/materialize.scss';
 @import 'base';
 @import 'header';
 @import 'global-search';
