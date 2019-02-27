@@ -156,9 +156,23 @@ i {
   .hw-combo-box .select-wrapper .select-dropdown.dropdown-trigger {
     width: 161px; } }
 
+.hw-header {
+  margin: 20px 0; }
+
+nav {
+  box-shadow: none;
+  -webkit-box-shadow: none; }
+
 /* Logo */
+nav .brand-logo {
+  margin: 8px 0; }
+
+.nav-wrapper {
+  width: 1280px;
+  margin: 10px 0px 10px 0; }
+
 .hw-nav {
-  margin-left: 250px; }
+  margin-left: 330px; }
 
 .hw-nav li > ul {
   display: none; }
@@ -173,8 +187,7 @@ i {
   list-style: none;
   position: relative;
   *zoom: 1;
-  font-size: 0.9375rem;
-  font-weight: 500; }
+  font-size: 0.9375rem; }
 
 .hw-nav ul:after {
   content: '';
