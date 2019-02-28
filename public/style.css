@@ -3,6 +3,9 @@
 html {
   font-family: Prompt; }
 
+a {
+  color: #275AA8; }
+
 .hw-header .nav {
   background-color: transparent;
   color: #000000;
@@ -327,10 +330,32 @@ i {
     .hw-nav .hw-nav > li.hover > ul, .hw-nav .hw-nav li li.hover ul {
       position: static; } }
 
-.hw-accordion-map .collapsible li.active,
-.hw-accordion-map .collapsible li.active .collapsible-header {
+.hw-accordion-map .accordion .collapsible li.active,
+.hw-accordion-map .accordion .collapsible li.active .collapsible-header {
   transition: background-color 0.7s ease;
   background-color: #e3f3e9; }
+
+.hw-accordion-map .accordion .active .collapsible-header {
+  border-bottom: none; }
+
+.hw-accordion-map .accordion .collapsible-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center; }
+  .hw-accordion-map .accordion .collapsible-header div:first-child {
+    color: #038072;
+    font-size: 20px; }
+  .hw-accordion-map .accordion .collapsible-header div:nth-child(2) {
+    font-size: 16px; }
+
+.hw-accordion-map .accordion .collapsible-body {
+  padding: 0px 30px 30px 30px; }
+  .hw-accordion-map .accordion .collapsible-body .icon-text {
+    margin-top: 0; }
+  .hw-accordion-map .accordion .collapsible-body .accordion-map-address-notes {
+    color: #535d62;
+    font-size: 14px; }
 
 .hw-prefooter nav#sub-navigation {
   height: auto;

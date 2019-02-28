@@ -1,8 +1,36 @@
 // Find name for this component
 .#{$namespace}-accordion-map {
-  .collapsible li.active,
-  .collapsible li.active .collapsible-header {
-    transition: background-color 0.7s ease;
-    background-color: #e3f3e9;
+  .accordion {
+    .collapsible li.active,
+    .collapsible li.active .collapsible-header {
+      transition: background-color 0.7s ease;
+      background-color: #e3f3e9;
+    }
+    .active .collapsible-header {
+      border-bottom:none;
+    }
+    .collapsible-header {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      align-items: center;
+      div:first-child {
+        color: #038072;
+        font-size: 20px;
+      }
+      div:nth-child(2) {
+        font-size: 16px;
+      }
+    }
+    .collapsible-body {
+      padding: 0px 30px 30px 30px;
+      .icon-text {
+        margin-top: 0;
+      }
+      .accordion-map-address-notes {
+        color: #535d62;
+        font-size: 14px;
+      }
+    }
   }
 }
