@@ -6,6 +6,11 @@
       transition: background-color 0.7s ease;
       background-color: #e3f3e9;
     }
+    .collapsible {
+      border-right:0;
+      border-left:0;
+      box-shadow: none;
+    }
     .active .collapsible-header {
       border-bottom:none;
     }

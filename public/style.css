@@ -335,6 +335,11 @@ i {
   transition: background-color 0.7s ease;
   background-color: #e3f3e9; }
 
+.hw-accordion-map .accordion .collapsible {
+  border-right: 0;
+  border-left: 0;
+  box-shadow: none; }
+
 .hw-accordion-map .accordion .active .collapsible-header {
   border-bottom: none; }
 
