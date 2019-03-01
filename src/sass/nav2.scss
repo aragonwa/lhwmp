@@ -12,14 +12,28 @@ nav .brand-logo {
   // position: relative;
   margin: 8px 0;
 }
+
+.brand-logo .responsive-mobile {
+  display: none;
+}
+
+.hw-container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.hw-nav-search {
+  float:right;
+}
+
+/* Logo */
 .nav-wrapper {
-  width:1280px;
-  margin: 10px 0px 10px 0;
+  margin: 10px 10px 10px 10px;
 }
 
 .hw-nav {
   // font-family: 'Prompt', sans-serif;
-  margin-left: 330px;
+  margin-left: 250px;
 }
 
 .hw-nav li > ul {
@@ -96,3 +110,53 @@ nav .brand-logo {
   background: #e6e9eb;
   color: #666;
 }
+
+
+@media screen and (max-width: 992px) {
+  nav .sidenav-trigger {
+    float:right;
+  }
+  .nav-wrapper {
+    margin: 10px 10px 10px 0px;
+  }
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .nav-wrapper {
+    width:100%;
+    margin: 10px 10px 10px 0px;
+  }
+
+  .brand-logo .responsive-mobile {
+    display: block;
+  }
+
+  .brand-logo .responsive-desktop {
+    display: none;
+  }
+
+
+
+  .hw-nav li {
+      float: none;
+}
+
+    .hw-nav ul ul {
+background-color: #F1F4F5;
+      position: relative; 
+      top: 0;
+    }
+
+    .hw-nav ul ul li {
+width: 100%;
+    }
+
+    .hw-nav ul ul li a {
+padding: 14px 0px 14px 30px;
+    }
+
+}
+
