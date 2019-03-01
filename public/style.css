@@ -170,8 +170,9 @@ nav .brand-logo {
 .brand-logo .responsive-mobile {
   display: none; }
 
-.container {
-  width: 100%; }
+.hw-container {
+  width: 85%;
+  margin: 0 auto; }
 
 .hw-nav-search {
   float: right; }
