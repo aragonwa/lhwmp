@@ -9,7 +9,7 @@ a {
 .hw-header .nav {
   background-color: transparent;
   color: #000000;
-  height: 52px; }
+  overflow: hidden; }
 
 .hw-header .nav-link {
   color: #535d62; }
@@ -166,7 +166,6 @@ i {
     width: 300px; }
   .hw-combo-box .select-wrapper .select-dropdown.dropdown-trigger {
     width: 161px; } }
-
 .hw-factoid {
   padding: 24px;
   margin: 0px; }
