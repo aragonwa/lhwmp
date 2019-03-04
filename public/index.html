@@ -13,22 +13,13 @@
 
 <body>
   <header class="hw-header">
-
-  <nav class="nav">
-  <div class="container">
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo"
-        ><img
-          src="images/body/Logo.svg"
-          class="responsive-img nav-logo"
-          width="268"
-          height="48"
-      /></a>
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger"
-        ><i class="material-icons">menu</i></a
-      >
-
-      <div class="hw-nav-search">
+  <nav class="nav nav-extended">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo"><img src="images/hazwaste-logo.png" class="responsive-img nav-logo" width="268"
+            height="48" /></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <div class="hw-nav-search">
   <form class="right" >
     <div class="input-field">
       <input id="search" type="search" required />
@@ -39,49 +30,40 @@
     </div>
   </form>
 <div>
-      <div class="hw-nav">
-   <div class="dropdowns">
-  
-          
-    <ul class="hw-nav" >
-          <li class="test">
-            <a href="#"
-              >Households <i class="material-icons right">arrow_drop_down</i></a
-            >
-            <ul>
-              <li><a href="#">Find hazardous waste products</a></li>
-              <li><a href="#">Disposal options</a></li>
-              <li><a href="#">Safer home products</a></li>
-              <li><a href="#">Home collection</a></li>
-              <li><a href="#">Incentives & home inspections</a></li>
-            </ul>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li>
+            <a class="dropdown-trigger nav-link" href="#!" data-target="dropdown1">Households<i
+                class="material-icons right">arrow_drop_down</i></a>
           </li>
           <li>
-            <a href="#"
-              >Businesses
-              <img alt="" src="images/body/ic_keyboard_arrow_down.png"
-            /></a>
-            <ul>
-              <li><a href="#">Hazardous waste product library</a></li>
-              <li><a href="#">Dispose hazardous waste</a></li>
-              <li><a href="#">Produce less hazardous waste</a></li>
-              <li><a href="#">Business incentives & grants</a></li>
-              <li><a href="#">Consultation</a></li>
-              <li><a href="#">IMEX</a></li>
-            </ul>
+            <a class="dropdown-trigger nav-link" href="#!" data-target="dropdown2">Businesses<i
+                class="material-icons right">arrow_drop_down</i></a>
           </li>
-          <li><a href="#">News & Events</a></li>
-          <li><a href="#">Language Resources</a></li>
-          <li><a href="#">Customer Service</a></li>
+          <li class="right"><a class="nav-link waves-effect waves-light" href="#">News & Events</a></li>
+          <li class="right"><a class="nav-link waves-effect waves-light" href="#">Languages Resources</a></li>
+          <li class="right"><a class="nav-link waves-effect waves-light" href="#">Customer Service</a></li>
         </ul>
-		
       </div>
-      </div>
-
-   
     </div>
-  </div>
-</nav>
+  </nav>
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="sass.html">Sass</a></li>
+    <li><a href="badges.html">Components</a></li>
+    <li><a href="collapsible.html">Javascript</a></li>
+    <li><a href="mobile.html">Mobile</a></li>
+  </ul>
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="#!">Find hazardous waste products</a></li>
+    <li><a href="#!">Dispoal options</a></li>
+    <li><a href="#!">Safer home products</a></li>
+    <li><a href="#!">Home collection</a></li>
+    <li><a href="#!">Incentives & home inspections</a></li>
+  </ul>
+  <ul id="dropdown2" class="dropdown-content">
+    <li><a href="#!">Dispose hazardous waste</a></li>
+    <li><a href="#!">How to choose safer products</a></li>
+    <li><a href="#!">Consultation</a></li>
+  </ul>
 </header>
   <main>
     <section class="hw-hero">
@@ -99,6 +81,7 @@
     </div>
   </div>
 </section>
+
     <aside class="center hw-factoid factoid-green">
   <p class="factoid-text">In 2016 we kept <strong>1,467</strong> tons of hazardous waste out of the environment</p>
     <a class="factoid-link" href="#">SEE OUR IMPACT</a>
@@ -134,73 +117,105 @@
         </div>
       </section>
     <section class="hw-accordion-map">
-        <div class="container">
-          <div class="row">
-            <div class="col s12 m6">
-              <img
-                src="https://via.placeholder.com/583/561"
-                height="561"
-                width="583"
-                class="responsive-img"
-              />
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m6">
+        <img
+          src="https://via.placeholder.com/583/561"
+          height="561"
+          width="583"
+          class="responsive-img"
+        />
+      </div>
+      <div class="col s12 m6 accordion">
+        <ul class="collapsible">
+          <li class="active">
+            <div class="collapsible-header">
+                <div>North Seattle</div>
+                <div>Sunday - Tuesday</div>
             </div>
-            <div class="col s12 m6">
-              <ul class="collapsible">
-                <li class="hw-nav__link">
-                  <div class="collapsible-header">
-                    <div style="display:flex">
-                      <div>North Seattle</div>
-                      <div>Sunday - Tuesday</div>
-                    </div>  
-                    
-                  </div>
-                  <div class="collapsible-body">
-                    <span>Lorem ipsum dolor sit amet.</span>
-                  </div>
-                </li>
-                <li>
-                  <div class="collapsible-header">
-                    South Seattle: Sunday -
-                    Tuesday
-                  </div>
-                  <div class="collapsible-body">
-                    <span>Lorem ipsum dolor sit amet.</span>
-                  </div>
-                </li>
-                <li>
-                  <div class="collapsible-header">
-                    Factoria: Sunday -
-                    Tuesday
-                  </div>
-                  <div class="collapsible-body">
-                    <span>Lorem ipsum dolor sit amet.</span>
-                  </div>
-                </li>
-                <li class="active">
-                  <div class="collapsible-header">
-                    Auburn Wastemobile:
-                    Sunday - Tuesday
-                  </div>
-                  <div class="collapsible-body">
-                    <span
-                      >1101 Outlet Collection Dr. SW Saturday - Sunday 10:00am -
-                      5:00pm Marine Flares not accepted at this location. Auburn
-                      Wastemobile closed Nov 24-25, Dec 29-30, 2018</span
-                    >
-                  </div>
-                </li>
-              </ul>
-              <p><a href="#">Wastemobile traveling schedule</a></p>
-              <p>
-                No fee for hazardous waste disposal. Please see
-                <a href="#">waste limits and restrictions.</a> Closed on July 4,
-                Thanksgiving Day, Christmas Day and New Years Day. Check Auburn
-                Wastemobile for closures.
-              </p>
+            <div class="collapsible-body" >
+              <div class="right center-align">
+                <i class="material-icons small">location_on</i>
+                <p class="icon-text">Directions</p>
+              </div>
+              <div class="accordion-map-address">
+                <p>1101 Outlet Collection Dr. SW<br/>
+                Saturday - Sunday  10:00am - 5:00pm</p>
+                <p class="accordion-map-address-notes">Marine Flares not accepted at this location.<br/>
+                Auburn Wastemobile closed Nov 24-25, Dec 29-30, 2018</p>
+              </div>
             </div>
-          </div>
-        </div>
-      </section>
+          </li>
+          <li>
+            <div class="collapsible-header">
+              <div>South Seattle</div>
+              <div>Sunday - Tuesday</div>
+            </div>
+            <div class="collapsible-body">
+               <div class="right center-align">
+                <i class="material-icons small">location_on</i>
+                <p class="icon-text">Directions</p>
+              </div>
+              <div class="accordion-map-address">
+                <p>1101 Outlet Collection Dr. SW<br/>
+                Saturday - Sunday  10:00am - 5:00pm</p>
+                <p class="accordion-map-address-notes">Marine Flares not accepted at this location.<br/>
+                Auburn Wastemobile closed Nov 24-25, Dec 29-30, 2018</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header">
+              <div>Factoria</div>
+              <div>Sunday - Tuesday</div>
+            </div>
+            <div class="collapsible-body">
+               <div class="right center-align">
+                <i class="material-icons small">location_on</i>
+                <p class="icon-text">Directions</p>
+              </div>
+              <div class="accordion-map-address">
+                <p>1101 Outlet Collection Dr. SW<br/>
+                Saturday - Sunday  10:00am - 5:00pm</p>
+                <p class="accordion-map-address-notes">Marine Flares not accepted at this location.<br/>
+                Auburn Wastemobile closed Nov 24-25, Dec 29-30, 2018</p>
+              </div>
+            </div>
+          </li>
+          <li >
+            <div class="collapsible-header">
+              <div>Auburn Wastemobile</div>
+              <div>Sunday - Tuesday</div>
+            </div>
+            <div class="collapsible-body">
+               <div class="right center-align">
+                <i class="material-icons small">location_on</i>
+                <p class="icon-text">Directions</p>
+              </div>
+              <div class="accordion-map-address">
+                <p>1101 Outlet Collection Dr. SW<br/>
+                Saturday - Sunday  10:00am - 5:00pm</p>
+                <p class="accordion-map-address-notes">Marine Flares not accepted at this location.<br/>
+                Auburn Wastemobile closed Nov 24-25, Dec 29-30, 2018</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <br/>
+
+        <p><a href="#">Wastemobile traveling schedule</a></p>
+        <p>
+          No fee for hazardous waste disposal. Please see
+          <a href="#">waste limits and restrictions.</a> Closed on July 4,
+          Thanksgiving Day, Christmas Day and New Years Day. Check Auburn
+          Wastemobile for closures.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
     <section class="center hw-signup">
   <h1 class="signup-title">Stay connected</h1>
   <p class="signup-text">
