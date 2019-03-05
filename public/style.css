@@ -165,6 +165,7 @@ i {
     width: 300px; }
   .hw-combo-box .select-wrapper .select-dropdown.dropdown-trigger {
     width: 161px; } }
+
 .hw-factoid {
   padding: 24px;
   margin: 0px; }
@@ -190,120 +191,6 @@ i {
     color: #141C20; }
   .hw-signup .hw-combo-box input {
     background-color: #FFFFFF; }
-
-.hw-header {
-  margin: 20px 0; }
-
-nav {
-  box-shadow: none;
-  -webkit-box-shadow: none; }
-
-/* Logo */
-nav .brand-logo {
-  margin: 8px 0; }
-
-.brand-logo .responsive-mobile {
-  display: none; }
-
-.hw-container {
-  width: 85%;
-  margin: 0 auto; }
-
-.hw-nav-search {
-  float: right; }
-
-/* Logo */
-.nav-wrapper {
-  margin: 10px 10px 10px 10px; }
-
-.hw-nav {
-  margin-left: 250px; }
-
-.hw-nav li > ul {
-  display: none; }
-
-.show {
-  display: block; }
-
-.hw-nav ul {
-  background: #ffffff;
-  padding: 0 20px;
-  border-radius: 0px;
-  list-style: none;
-  position: relative;
-  *zoom: 1;
-  font-size: 0.9375rem; }
-
-.hw-nav ul:after {
-  content: '';
-  clear: both;
-  display: block; }
-
-.hw-nav li {
-  float: left; }
-
-/* first level navigation styles */
-.hw-nav ul li:hover {
-  background: #f1f4f5; }
-
-.hw-nav ul li:hover a {
-  color: #047786; }
-
-.hw-nav ul li a {
-  display: block;
-  padding: 0px 10px 0px 15px;
-  color: #666;
-  text-decoration: none; }
-
-/* second level navigation styles */
-.hw-nav ul ul {
-  z-index: 2;
-  background-color: #f1f4f5;
-  border-radius: 0px;
-  padding: 0;
-  position: absolute;
-  top: 100%; }
-
-.hw-nav ul li:hover ul li a {
-  color: #666; }
-
-.hw-nav ul ul li {
-  float: none;
-  position: relative;
-  width: 270px; }
-
-.hw-nav ul ul li a {
-  line-height: normal;
-  padding: 14px 0px 14px 10px; }
-
-.hw-nav ul ul li a:hover {
-  background: #e6e9eb;
-  color: #666; }
-
-@media screen and (max-width: 992px) {
-  nav .sidenav-trigger {
-    float: right; }
-  .nav-wrapper {
-    margin: 10px 10px 10px 0px; } }
-
-@media screen and (max-width: 768px) {
-  .nav-wrapper {
-    width: 100%;
-    margin: 10px 10px 10px 0px; }
-  .brand-logo .responsive-mobile {
-    display: block; }
-  .brand-logo .responsive-desktop {
-    display: none; }
-  .hw-nav li {
-    float: none; }
-  .hw-nav ul ul {
-    background-color: #F1F4F5;
-    position: relative;
-    top: 0; }
-  .hw-nav ul ul li {
-    width: 100%; }
-  .hw-nav ul ul li a {
-    padding: 14px 0px 14px 30px; } }
 
 .hw-accordion-map .accordion .collapsible li.active,
 .hw-accordion-map .accordion .collapsible li.active .collapsible-header {
@@ -336,6 +223,16 @@ nav .brand-logo {
   .hw-accordion-map .accordion .collapsible-body .accordion-map-address-notes {
     color: #535d62;
     font-size: 14px; }
+
+.hw-cards .cards-container {
+  margin-top: 60px;
+  margin-bottom: 60px; }
+
+.hw-cards .cards-icon .cards-icon-green {
+  color: #9ECC64; }
+
+.hw-cards .cards-icon .cards-icon-blue {
+  color: #24A893; }
 
 .hw-prefooter nav#sub-navigation {
   height: auto;
