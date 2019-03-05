@@ -1,7 +1,7 @@
 /** Initiate Materialize scripts */
 (function() {
   M.AutoInit();
-``  var elems = document.querySelectorAll('.carousel');
+  var elems = document.querySelectorAll('.carousel');
   document.addEventListener('DOMContentLoaded', function() {
     var instances = M.Carousel.init(elems, { fullWidth: true });
   });
