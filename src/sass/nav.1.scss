@@ -1,0 +1,165 @@
+
+.#{$namespace}-nav {
+}
+  .hw-header {
+  margin: 20px 0;
+}
+
+nav {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+/* Logo */
+nav .brand-logo {
+  // position: relative;
+  margin: 8px 0;
+}
+
+.brand-logo .responsive-mobile {
+  display: none;
+}
+
+.hw-container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.hw-nav-search {
+  float:right;
+}
+
+/* Logo */
+.nav-wrapper {
+  margin: 10px 10px 10px 10px;
+}
+
+.hw-nav {
+  // font-family: 'Prompt', sans-serif;
+  margin-left: 250px;
+}
+
+.hw-nav li > ul {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.hw-nav ul {
+  background: #ffffff;
+  padding: 0 20px;
+  border-radius: 0px;
+  list-style: none;
+  position: relative;
+  *zoom: 1;
+  font-size: 0.9375rem;
+}
+
+.hw-nav ul:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.hw-nav li {
+  float: left;
+}
+
+/* first level navigation styles */
+.hw-nav ul li:hover {
+  background: #f1f4f5;
+}
+
+.hw-nav ul li:hover a {
+  color: #047786;
+}
+
+.hw-nav ul li a {
+  display: block;
+  padding: 0px 10px 0px 15px;
+  color: #666;
+  text-decoration: none;
+}
+
+/* second level navigation styles */
+
+.hw-nav ul ul {
+  z-index: 2;
+  background-color: #f1f4f5;
+  border-radius: 0px;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+}
+
+.hw-nav ul li:hover ul li a {
+  color: #666;
+}
+
+.hw-nav ul ul li {
+  float: none;
+  position: relative;
+  width: 270px;
+}
+
+.hw-nav ul ul li a {
+  line-height: normal;
+  padding: 14px 0px 14px 10px;
+}
+
+.hw-nav ul ul li a:hover {
+  background: #e6e9eb;
+  color: #666;
+}
+
+
+@media screen and (max-width: 992px) {
+  nav .sidenav-trigger {
+    float:right;
+  }
+  .nav-wrapper {
+    margin: 10px 10px 10px 0px;
+  }
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .nav-wrapper {
+    width:100%;
+    margin: 10px 10px 10px 0px;
+  }
+
+  .brand-logo .responsive-mobile {
+    display: block;
+  }
+
+  .brand-logo .responsive-desktop {
+    display: none;
+  }
+
+
+
+  .hw-nav li {
+      float: none;
+}
+
+    .hw-nav ul ul {
+background-color: #F1F4F5;
+      position: relative; 
+      top: 0;
+    }
+
+    .hw-nav ul ul li {
+width: 100%;
+    }
+
+    .hw-nav ul ul li a {
+padding: 14px 0px 14px 30px;
+    }
+
+}
+

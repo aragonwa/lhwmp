@@ -17,19 +17,17 @@
   </head>
   <body>
     <header class="hw-header">
-
-  <nav class="nav nav-extended">
-  <div class="hw-container">
-    <div class="nav-wrapper">
-      <a href="#" class="left brand-logo">
-      <img src="images/body/Logo.svg" class="responsive-desktop" width="268" height="48"/>
-      <img src="images/body/HWMP-brandMark.svg" class="responsive-mobile" width="40" height="40"/>
-      </a>
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger"
-        ><i class="material-icons">menu</i></a
-      >
-
-      <div class="hw-nav-search">
+  <nav class="nav">
+    <div class="hw-container">
+      <div class="nav-wrapper">
+        <a href="#" class="left brand-logo">
+        <img src="./images/Logo.svg" class="responsive-desktop" width="268" height="48"/>
+        <img src="images/body/HWMP-brandMark.svg" class="responsive-mobile" width="40" height="40"/>
+        </a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+          ><i class="material-icons">menu</i></a
+        >
+        <div class="hw-nav-search">
   <form class="right" >
     <div class="input-field">
       <input id="search" type="search" required />
@@ -40,37 +38,41 @@
     </div>
   </form>
 </div>
-          <!-- START: nav -->
-    <div class="hw-nav">
-      <div class="">
-
-        <ul class="left hide-on-med-and-down">
-          <li class="dropdown"><a href="#">Households <img alt="" src="images/body/ic_keyboard_arrow_down.png"></a>
-              <ul class="is-open">
-                <li><a href="#">Find hazardous waste products</a></li>
-                <li><a href="#">Disposal options</a></li>
-                <li><a href="#">Safer home products</a></li>
-                <li><a href="#">Home collection</a></li>
-                <li><a href="#">Incentives & home inspections</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#">Businesses <img alt="" src="images/body/ic_keyboard_arrow_down.png"></a>
-            <ul class="is-open">
-			<li><a href="#">Hazardous waste product library</a></li>
-			<li><a href="#">Dispose hazardous waste</a></li>
-			<li><a href="#">Produce less hazardous waste</a></li>
-			<li><a href="#">Business incentives & grants</a></li>
-			<li><a href="#">Consultation</a></li>
-			<li><a href="#">IMEX</a></li>
-		</ul></li>
-	<li><a href="#">News & Events</a></li>
-	<li><a href="#">Language Resources</a></li>
-	<li><a href="#">Customer Service</a></li>
-        </ul>
-
-      </div>
-    </div>
-    <!-- END: nav -->
+        <div class="hw-nav">
+  <ul class="left hide-on-med-and-down">
+    <li class="dropdown"><a href="#" class="waves-effect waves-light">Households <i class="material-icons right">expand_more</i></a>
+      <ul class="is-open">
+        <li><a href="#" class="hi">Find hazardous waste products</a>
+          <ul class="sub-menu">
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Disposal options</a></li>
+        <li><a href="#">Safer home products</a></li>
+        <li><a href="#">Home collection</a></li>
+        <li><a href="#">Incentives & home inspections</a></li>
+      </ul>
+    </li>
+    <li class="dropdown"><a href="#">Businesses <i class="material-icons right">expand_more</i></a>
+      <ul class="is-open">
+        <li><a href="#">Hazardous waste product library</a></li>
+        <li><a href="#">Dispose hazardous waste</a></li>
+        <li><a href="#">Produce less hazardous waste</a></li>
+        <li><a href="#">Business incentives & grants</a></li>
+        <li><a href="#">Consultation</a></li>
+        <li><a href="#">IMEX</a></li>
+      </ul>
+    </li>
+    <li><a href="#">News & Events</a></li>
+    <li><a href="#">Language Resources</a></li>
+    <li><a href="#">Customer Service</a></li>
+  </ul>
+</div>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -89,17 +91,22 @@
   });
 
 
+$(".hi").click(function(e) {
+   // Do something
+   e.stopPropagation();
+});
+
   // close menu when clicked outside of drop down menu
   $(document).on("click", function(event){
-    var $triggerOn = $(".dropdown");
-    if($triggerOn !== event.target && !$triggerOn.has(event.target).length){
-      $(".is-open").hide();
-    }            
+    // var $triggerOn = $(".dropdown");
+    // if($triggerOn !== event.target && !$triggerOn.has(event.target).length){
+    //   $(".is-open").hide();
+    // }            
   });  
 </script>
 
 
-   
+      </div>
     </div>
   </nav>
   <ul class="sidenav" id="mobile-demo">
@@ -107,18 +114,6 @@
     <li><a href="badges.html">Components</a></li>
     <li><a href="collapsible.html">Javascript</a></li>
     <li><a href="mobile.html">Mobile</a></li>
-  </ul>
-  <ul id="dropdown1" class="dropdown-content">
-    <li><a href="#!">Find hazardous waste products</a></li>
-    <li><a href="#!">Dispoal options</a></li>
-    <li><a href="#!">Safer home products</a></li>
-    <li><a href="#!">Home collection</a></li>
-    <li><a href="#!">Incentives & home inspections</a></li>
-  </ul>
-  <ul id="dropdown2" class="dropdown-content">
-    <li><a href="#!">Dispose hazardous waste</a></li>
-    <li><a href="#!">How to choose safer products</a></li>
-    <li><a href="#!">Consultation</a></li>
   </ul>
 </header>
     <main>
@@ -137,6 +132,41 @@
     </div>
   </div>
 </section>
+       
+
+<aside class="center hw-factoid factoid-green">
+  <p class="factoid-text">Factoid or metric goes here</p>
+  
+    <a class="factoid-link" href="https://www.kingcounty.gov">Link to dashboard</a>
+</aside>
+      <div class="hw-prefooter">
+  <nav role="navigation" id="sub-navigation">
+    <div class="container">
+      <ul class="row center">
+        <li class="col s6 m4 l2">
+          <a href="#"><img src="images/prefooter/hazwaste-logo-black.svg" class="prefooter-icon" alt=""> About us</a>
+        </li>
+        <li class="col s6 m4 l2">
+          <a href="#"><img src="images/prefooter/check.svg" class="prefooter-icon" alt="">
+            Accountability</a>
+        </li>
+        <li class="col s6 m4 l2">
+          <a href="#"><img src="images/prefooter/notebook.svg" class="prefooter-icon" alt=""> Research</a>
+        </li>
+        <li class="col s6 m4 l2">
+          <a href="#"><img src="images/prefooter/globe.svg" class="prefooter-icon" alt="">
+            Policy&nbsp;&amp;&nbsp;Advocacy</a>
+        </li>
+        <li class="col s6 m4 l2">
+          <a href="#"><img src="images/prefooter/wrench.svg" class="prefooter-icon" alt=""> Toolkit</a>
+        </li>
+        <li class="col s6 m4 l2">
+          <a href="#"><img src="images/prefooter/briefcase.svg" class="prefooter-icon" alt=""> Careers</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
     </main>
     <footer class="hw-footer page-footer">
   <div class="container">

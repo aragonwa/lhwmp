@@ -1,4 +1,4 @@
 /** Initiate Materialize scripts */
 (function() {
-  M.AutoInit();
+  M.AutoInit(); 
 })();
