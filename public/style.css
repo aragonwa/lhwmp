@@ -236,6 +236,9 @@ i {
 .hw-cards .cards-icon .cards-icon-blue {
   color: #24A893; }
 
+.hw-split .split-icon {
+  margin-top: 80px; }
+
 .hw-split ul {
   border: none; }
   .hw-split ul li.collection-item, .hw-split ul li.collection-header {
