@@ -1,0 +1,36 @@
+.#{$namespace}-split {
+  ul {
+      border: none;
+      li.collection-item, li.collection-header {
+          text-align: left;
+          border: none !important;
+          padding: 5px !important;
+          font-size: 16px;
+          .split-description {
+              display: block;
+              color: #535D62;
+              font-size: 14px;
+          }
+          .secondary-content {
+              float: none;
+          }
+      }
+      li.collection-header h4 {
+          font-size: 24pt;
+      }
+  }
+  .split-text-yes {
+      text-align: left;
+      h2 { 
+        color: #038072;
+        font-size: 36px;
+        }
+  }
+  .split-text-no {
+      text-align: left;
+      h2 {
+          color: #A30707;
+          font-size: 36px;
+      }
+  }
+}
