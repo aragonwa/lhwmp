@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Prompt:200,300,400,500,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Lora:200,300,400,500,600,700,800");
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet');
 html {
   font-family: Prompt; }
 
@@ -234,6 +235,37 @@ i {
 
 .hw-cards .cards-icon .cards-icon-blue {
   color: #24A893; }
+
+.hw-split .split-icon {
+  margin-top: 80px; }
+
+.hw-split ul {
+  border: none; }
+  .hw-split ul li.collection-item, .hw-split ul li.collection-header {
+    text-align: left;
+    border: none !important;
+    padding: 5px !important;
+    font-size: 16px; }
+    .hw-split ul li.collection-item .split-description, .hw-split ul li.collection-header .split-description {
+      display: block;
+      color: #535D62;
+      font-size: 14px; }
+    .hw-split ul li.collection-item .secondary-content, .hw-split ul li.collection-header .secondary-content {
+      float: none; }
+  .hw-split ul li.collection-header h4 {
+    font-size: 24pt; }
+
+.hw-split .split-text-yes {
+  text-align: left; }
+  .hw-split .split-text-yes h2 {
+    color: #038072;
+    font-size: 36px; }
+
+.hw-split .split-text-no {
+  text-align: left; }
+  .hw-split .split-text-no h2 {
+    color: #A30707;
+    font-size: 36px; }
 
 .hw-prefooter nav#sub-navigation {
   height: auto;
