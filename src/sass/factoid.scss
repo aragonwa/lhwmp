@@ -1,20 +1,18 @@
+
 .#{$namespace}-factoid {
-    padding:0px;
-    margin: 0px;
-    .greenish {
-        background-color:#B5DE92; 
-        padding: 24px;
-    }
-    p.call {
-        font-size: 24px; 
-        margin-bottom: 5px;
-        margin-top: 0px;
-    }
-    p.link {
-        margin-top:0;
-        margin-bottom: 0;
-        a {
-            color:#13598E;
-        }
-    }
-}
+  // We can continue to add variations here
+  // All we have to do is update the background color
+  &.factoid-green {
+      background-color:#B5DE92; 
+  }
+  padding: 24px;
+  margin: 0px;
+  .factoid-text {
+      font-size: 24px; 
+      margin-bottom: 5px;
+      margin-top: 0px;
+  }
+  .factoid-link {
+      color:#13598E;
+  }
+} 

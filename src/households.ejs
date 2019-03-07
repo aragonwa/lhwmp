@@ -18,8 +18,9 @@
   <body>
     <% include components/header %>
     <main>
-  
-      <%- include('components/hero', {title:"How to dispose of household hazardous waste?", content:"<h1>hi</h1>"}); %>
+      <%- include('components/hero', {title:"How to dispose of household hazardous waste", content:'<p>If you live in King County, you can take your household hazardous waste to any of our four collection sites or to the traveling Wastemobile. You don’t need to make an appointment, and there’s no fee for this service.<p>', image:'/images/Household-page-hero.png'}); %>
+       <%- include('components/factoid', {text: "Factoid or metric goes here", linkurl:'https://www.kingcounty.gov', linktext:'Link to dashboard'}); %>
+      <% include components/prefooter %>
     </main>
     <% include components/footer %>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

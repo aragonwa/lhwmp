@@ -1,0 +1,14 @@
+.#{$namespace}-cards {
+  .cards-container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .cards-icon {
+    .cards-icon-green {
+      color:#9ECC64;
+    }
+    .cards-icon-blue {
+      color:#24A893;
+    }
+  }
+}
