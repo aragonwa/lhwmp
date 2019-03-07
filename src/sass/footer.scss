@@ -1,14 +1,19 @@
 .#{$namespace}-footer {
   background-color: #141C20;
   color: #ffffff;
+  font-weight:400;
   font-size: 14px;
   line-height: 24px;
   .container {
     width: 100%;
+    justify-content: center;
     .row {
-      width: 90%;
       padding: 0px !important;
       margin-bottom: 0px;
+      margin-left: 40px;
+      .col {
+        padding-right: 40px;
+      }
         a { 
           color: #B6C0C4; 
           font-weight: 500;
