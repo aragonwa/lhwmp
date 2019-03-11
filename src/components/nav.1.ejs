@@ -1,8 +1,8 @@
 <div class="hw-nav">
-  <ul class="left hide-on-med-and-down">
+  <ul class="right hide-on-med-and-down">
     <li class="dropdown"><a href="#" class="waves-effect waves-light">Households <i class="material-icons right">expand_more</i></a>
       <ul class="is-open">
-        <li><a href="#" class="hi">Find hazardous waste products</a>
+        <li class="has-sub-menu"><a href="#">Find hazardous waste products <i class="material-icons">keyboard_arrow_right</i></a>
           <ul class="sub-menu">
             <li><a href="#">Link</a></li>
             <li><a href="#">Link</a></li>
@@ -18,7 +18,7 @@
         <li><a href="#">Incentives & home inspections</a></li>
       </ul>
     </li>
-    <li class="dropdown"><a href="#">Businesses <i class="material-icons right">expand_more</i></a>
+    <li class="dropdown"><a class="waves-effect waves-light" href="#">Businesses <i class="material-icons right">expand_more</i></a>
       <ul class="is-open">
         <li><a href="#">Hazardous waste product library</a></li>
         <li><a href="#">Dispose hazardous waste</a></li>
@@ -28,40 +28,9 @@
         <li><a href="#">IMEX</a></li>
       </ul>
     </li>
-    <li><a href="#">News & Events</a></li>
-    <li><a href="#">Language Resources</a></li>
-    <li><a href="#">Customer Service</a></li>
+    <li class="waves-effect waves-light"><a href="#">News & Events</a></li>
+    <li class="waves-effect waves-light"><a href="#">Languages</a></li>
+    <li class="waves-effect waves-light"><a href="#">Customer Service</a></li>
   </ul>
 </div>
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
-<script>
-  // toggle drop down
-  $(document).ready(function(){
-    $("li:has(ul)").click(function(){
-      if ($(this).find(".is-open").is(":visible")) {
-        $(".is-open").hide();
-      } else {
-        $(".is-open").hide();
-        $(this).find(".is-open").toggle();
-      }
-    });
-  });
-
-
-$(".hi").click(function(e) {
-   // Do something
-   e.stopPropagation();
-});
-
-  // close menu when clicked outside of drop down menu
-  $(document).on("click", function(event){
-    // var $triggerOn = $(".dropdown");
-    // if($triggerOn !== event.target && !$triggerOn.has(event.target).length){
-    //   $(".is-open").hide();
-    // }            
-  });  
-</script>
 
