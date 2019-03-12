@@ -1,11 +1,20 @@
 @import url("https://fonts.googleapis.com/css?family=Prompt:200,300,400,500,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Lora:200,300,400,500,600,700,800");
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet');
 html {
   font-family: Prompt; }
 
+a {
+  color: #275AA8; }
+
 .hw-header .nav {
   background-color: transparent;
+<<<<<<< HEAD
   color: #000000; }
+=======
+  color: #000000;
+  overflow: hidden; }
+>>>>>>> 98cb889a50b89e87d1a8de18ab13b6052e71956d
 
 .hw-header .nav-link {
   color: #535d62; }
@@ -93,9 +102,16 @@ i {
     z-index: 1;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%);
+    font-size: 18px; }
     .hw-hero .hero-content h1.hero-title {
-      margin-top: 10.8rem; }
+      margin-top: 2.8rem;
+      font-size: 44px;
+      font-weight: 600; }
+    .hw-hero .hero-content .hero-text {
+      margin-right: auto;
+      margin-left: auto;
+      width: 73%; }
 
 .hw-combo-box > input[type='text'] {
   background-color: rgba(212, 224, 226, 0.9);
@@ -156,6 +172,7 @@ i {
   .hw-combo-box .select-wrapper .select-dropdown.dropdown-trigger {
     width: 161px; } }
 
+<<<<<<< HEAD
 .hw-safety-tips .col {
   display: inline; }
 
@@ -289,8 +306,106 @@ nav .brand-logo {
 
 .hw-accordion-map .collapsible li.active,
 .hw-accordion-map .collapsible li.active .collapsible-header {
+=======
+.hw-factoid {
+  padding: 24px;
+  margin: 0px; }
+  .hw-factoid.factoid-green {
+    background-color: #B5DE92; }
+  .hw-factoid .factoid-text {
+    font-size: 24px;
+    margin-bottom: 5px;
+    margin-top: 0px; }
+  .hw-factoid .factoid-link {
+    color: #13598E; }
+
+.hw-signup {
+  background-color: #F1F4F5;
+  padding: 38px 20px 80px 20px; }
+  .hw-signup .signup-title {
+    font-size: 36px;
+    color: #141C20; }
+  .hw-signup .signup-text {
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: #141C20; }
+  .hw-signup .hw-combo-box input {
+    background-color: #FFFFFF; }
+
+.hw-accordion-map .accordion .collapsible li.active,
+.hw-accordion-map .accordion .collapsible li.active .collapsible-header {
+>>>>>>> 98cb889a50b89e87d1a8de18ab13b6052e71956d
   transition: background-color 0.7s ease;
   background-color: #e3f3e9; }
+
+.hw-accordion-map .accordion .collapsible {
+  border-right: 0;
+  border-left: 0;
+  box-shadow: none; }
+
+.hw-accordion-map .accordion .active .collapsible-header {
+  border-bottom: none; }
+
+.hw-accordion-map .accordion .collapsible-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center; }
+  .hw-accordion-map .accordion .collapsible-header div:first-child {
+    color: #038072;
+    font-size: 20px; }
+  .hw-accordion-map .accordion .collapsible-header div:nth-child(2) {
+    font-size: 16px; }
+
+.hw-accordion-map .accordion .collapsible-body {
+  padding: 0px 30px 30px 30px; }
+  .hw-accordion-map .accordion .collapsible-body .icon-text {
+    margin-top: 0; }
+  .hw-accordion-map .accordion .collapsible-body .accordion-map-address-notes {
+    color: #535d62;
+    font-size: 14px; }
+
+.hw-cards .cards-container {
+  margin-top: 60px;
+  margin-bottom: 60px; }
+
+.hw-cards .cards-icon .cards-icon-green {
+  color: #9ECC64; }
+
+.hw-cards .cards-icon .cards-icon-blue {
+  color: #24A893; }
+
+.hw-split .split-icon {
+  margin-top: 80px; }
+
+.hw-split ul {
+  border: none; }
+  .hw-split ul li.collection-item, .hw-split ul li.collection-header {
+    text-align: left;
+    border: none !important;
+    padding: 5px !important;
+    font-size: 16px; }
+    .hw-split ul li.collection-item .split-description, .hw-split ul li.collection-header .split-description {
+      display: block;
+      color: #535D62;
+      font-size: 14px; }
+    .hw-split ul li.collection-item .secondary-content, .hw-split ul li.collection-header .secondary-content {
+      float: none; }
+  .hw-split ul li.collection-header h4 {
+    font-size: 24pt; }
+
+.hw-split .split-text-yes {
+  text-align: left; }
+  .hw-split .split-text-yes h2 {
+    color: #038072;
+    font-size: 36px; }
+
+.hw-split .split-text-no {
+  text-align: left; }
+  .hw-split .split-text-no h2 {
+    color: #A30707;
+    font-size: 36px; }
 
 .hw-prefooter nav#sub-navigation {
   height: auto;
@@ -329,7 +444,7 @@ nav .brand-logo {
   .hw-footer .container {
     width: 100%; }
     .hw-footer .container .row {
-      width: 90vw;
+      width: 90%;
       padding: 0px !important;
       margin-bottom: 0px; }
       .hw-footer .container .row a {

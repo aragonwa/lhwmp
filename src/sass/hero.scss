@@ -7,7 +7,15 @@
     left: 50%;
     transform: translate(-50%, -50%);
     h1.hero-title {
-      margin-top: 10.8rem;
+      margin-top: 2.8rem;
+      font-size: 44px;
+      font-weight: 600;
+    }
+    font-size: 18px;
+    .hero-text {
+      margin-right:auto;
+      margin-left:auto;
+      width:73%;
     }
   }
 }
