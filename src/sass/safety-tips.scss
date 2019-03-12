@@ -1,18 +1,26 @@
 .#{$namespace}-safety-tips {
     
     .col {
-        display: inline-block;
-        vertical-align:top;
-        height: 200px;
+        display: inline;
+        float: left;
+        height: 230px;
     }
     h3 {
       color: #047786;
       margin: 0px auto;
-      padding: 0px 0px 12px 0px;
+      padding: 0px 0px 30px 0px;
     }
     .col i.material-icons {
       display: block;
     }
+
+    @media only screen and (min-width: 992px) {
+        .col {
+            display: inline-block;
+            vertical-align:top;
+            height: 200px;
+        }
+      }
 
   }
   
