@@ -9,12 +9,8 @@ a {
 
 .hw-header .nav {
   background-color: transparent;
-<<<<<<< HEAD
-  color: #000000; }
-=======
   color: #000000;
   overflow: hidden; }
->>>>>>> 98cb889a50b89e87d1a8de18ab13b6052e71956d
 
 .hw-header .nav-link {
   color: #535d62; }
@@ -172,7 +168,32 @@ i {
   .hw-combo-box .select-wrapper .select-dropdown.dropdown-trigger {
     width: 161px; } }
 
-<<<<<<< HEAD
+.hw-factoid {
+  padding: 24px;
+  margin: 0px; }
+  .hw-factoid.factoid-green {
+    background-color: #B5DE92; }
+  .hw-factoid .factoid-text {
+    font-size: 24px;
+    margin-bottom: 5px;
+    margin-top: 0px; }
+  .hw-factoid .factoid-link {
+    color: #13598E; }
+
+.hw-signup {
+  background-color: #F1F4F5;
+  padding: 38px 20px 80px 20px; }
+  .hw-signup .signup-title {
+    font-size: 36px;
+    color: #141C20; }
+  .hw-signup .signup-text {
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: #141C20; }
+  .hw-signup .hw-combo-box input {
+    background-color: #FFFFFF; }
+
 .hw-safety-tips .col {
   display: inline; }
 
@@ -304,38 +325,8 @@ nav .brand-logo {
   .hw-nav ul ul li a {
     padding: 14px 0px 14px 30px; } }
 
-.hw-accordion-map .collapsible li.active,
-.hw-accordion-map .collapsible li.active .collapsible-header {
-=======
-.hw-factoid {
-  padding: 24px;
-  margin: 0px; }
-  .hw-factoid.factoid-green {
-    background-color: #B5DE92; }
-  .hw-factoid .factoid-text {
-    font-size: 24px;
-    margin-bottom: 5px;
-    margin-top: 0px; }
-  .hw-factoid .factoid-link {
-    color: #13598E; }
-
-.hw-signup {
-  background-color: #F1F4F5;
-  padding: 38px 20px 80px 20px; }
-  .hw-signup .signup-title {
-    font-size: 36px;
-    color: #141C20; }
-  .hw-signup .signup-text {
-    margin-top: 40px;
-    margin-bottom: 25px;
-    font-size: 18px;
-    color: #141C20; }
-  .hw-signup .hw-combo-box input {
-    background-color: #FFFFFF; }
-
 .hw-accordion-map .accordion .collapsible li.active,
 .hw-accordion-map .accordion .collapsible li.active .collapsible-header {
->>>>>>> 98cb889a50b89e87d1a8de18ab13b6052e71956d
   transition: background-color 0.7s ease;
   background-color: #e3f3e9; }
 
