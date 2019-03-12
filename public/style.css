@@ -156,6 +156,19 @@ i {
   .hw-combo-box .select-wrapper .select-dropdown.dropdown-trigger {
     width: 161px; } }
 
+.hw-safety-tips .col {
+  display: inline-block;
+  vertical-align: top;
+  height: 200px; }
+
+.hw-safety-tips h3 {
+  color: #047786;
+  margin: 0px auto;
+  padding: 0px 0px 12px 0px; }
+
+.hw-safety-tips .col i.material-icons {
+  display: block; }
+
 .hw-header {
   margin: 20px 0; }
 
