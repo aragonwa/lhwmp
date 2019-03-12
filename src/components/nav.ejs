@@ -1,0 +1,58 @@
+    <!-- START: nav -->
+    <div class="hw-nav">
+      <div class="">
+
+        <ul class="left hide-on-med-and-down">
+          <li class="dropdown"><a href="#">Households <img alt="" src="./images/body/ic_keyboard_arrow_down.png"></a>
+              <ul class="is-open">
+                <li><a href="#" class="sub-nav">Find hazardous waste products</a></li>
+                <li><a href="#">Disposal options</a></li>
+                <li><a href="#">Safer home products</a></li>
+                <li><a href="#">Home collection</a></li>
+                <li><a href="#">Incentives & home inspections</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#">Businesses <img alt="" src="./images/body/ic_keyboard_arrow_down.png"></a>
+            <ul class="is-open">
+			<li><a href="#">Hazardous waste product library</a></li>
+			<li><a href="#">Dispose hazardous waste</a></li>
+			<li><a href="#">Produce less hazardous waste</a></li>
+			<li><a href="#">Business incentives & grants</a></li>
+			<li><a href="#">Consultation</a></li>
+			<li><a href="#">IMEX</a></li>
+		</ul></li>
+	<li><a href="#">News & Events</a></li>
+	<li><a href="#">Language Resources</a></li>
+	<li><a href="#">Customer Service</a></li>
+        </ul>
+
+      </div>
+    </div>
+    <!-- END: nav -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script>
+  // toggle drop down
+  $(document).ready(function(){
+    $("li:has(ul)").click(function(){
+      if ($(this).find(".is-open").is(":visible")) {
+        $(".is-open").hide();
+      } else {
+        $(".is-open").hide();
+        $(this).find(".is-open").toggle();
+      }
+    });
+  });
+
+
+  // close menu when clicked outside of drop down menu
+  $(document).on("click", function(event){
+    var $triggerOn = $(".dropdown");
+    if($triggerOn !== event.target && !$triggerOn.has(event.target).length){
+      $(".is-open").hide();
+    }            
+  });  
+</script>
+

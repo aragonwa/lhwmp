@@ -12,13 +12,21 @@
 </head>
 
 <body>
-  <header class="hw-header">
-  <nav class="nav nav-extended">
-    <div class="container">
+  
+        
+<header class="hw-header">
+  <nav class="nav">
+    <div class="hw-container">
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo"><img src="images/hazwaste-logo.png" class="responsive-img nav-logo" width="268"
-            height="48" /></a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <a href="#" class="left brand-logo">
+          <img src="./images/Logo.svg" class="responsive-desktop" width="268" height="48"/>
+          <img src="./images/body/HWMP-brandMark.svg" class="responsive-mobile" width="40" height="40"/>
+        </a>
+        <a href="#" data-target="mobile-nav" class="sidenav-trigger"
+          >
+          <i class="material-icons">menu</i>
+        </a
+        >
         <div class="hw-nav-search">
   <form class="right" >
     <div class="input-field">
@@ -29,40 +37,67 @@
       <i class="material-icons" >close</i>
     </div>
   </form>
-<div>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li>
-            <a class="dropdown-trigger nav-link" href="#!" data-target="dropdown1">Households<i
-                class="material-icons right">arrow_drop_down</i></a>
-          </li>
-          <li>
-            <a class="dropdown-trigger nav-link" href="#!" data-target="dropdown2">Businesses<i
-                class="material-icons right">arrow_drop_down</i></a>
-          </li>
-          <li class="right"><a class="nav-link waves-effect waves-light" href="#">News & Events</a></li>
-          <li class="right"><a class="nav-link waves-effect waves-light" href="#">Languages Resources</a></li>
-          <li class="right"><a class="nav-link waves-effect waves-light" href="#">Customer Service</a></li>
-        </ul>
+</div>
+        <div class="hw-nav">
+  <ul class="right hide-on-med-and-down">
+    <li class="dropdown"><a href="#" class="waves-effect waves-light">Households <i class="material-icons right">expand_more</i></a>
+      <ul class="is-open">
+        <li class="has-sub-menu"><a href="#">Find hazardous waste products <i class="material-icons">keyboard_arrow_right</i></a>
+          <ul class="sub-menu">
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Disposal options</a></li>
+        <li><a href="#">Safer home products</a></li>
+        <li><a href="#">Home collection</a></li>
+        <li><a href="#">Incentives & home inspections</a></li>
+      </ul>
+    </li>
+    <li class="dropdown"><a class="waves-effect waves-light" href="#">Businesses <i class="material-icons right">expand_more</i></a>
+      <ul class="is-open">
+        <li><a href="#">Hazardous waste product library</a></li>
+        <li><a href="#">Dispose hazardous waste</a></li>
+        <li><a href="#">Produce less hazardous waste</a></li>
+        <li><a href="#">Business incentives & grants</a></li>
+        <li><a href="#">Consultation</a></li>
+        <li><a href="#">IMEX</a></li>
+      </ul>
+    </li>
+    <li class="waves-effect waves-light"><a href="#">News & Events</a></li>
+    <li class="waves-effect waves-light"><a href="#">Languages</a></li>
+    <li class="waves-effect waves-light"><a href="#">Customer Service</a></li>
+  </ul>
+</div>
+
+
       </div>
     </div>
   </nav>
-  <ul class="sidenav" id="mobile-demo">
-    <li><a href="sass.html">Sass</a></li>
-    <li><a href="badges.html">Components</a></li>
-    <li><a href="collapsible.html">Javascript</a></li>
-    <li><a href="mobile.html">Mobile</a></li>
-  </ul>
-  <ul id="dropdown1" class="dropdown-content">
-    <li><a href="#!">Find hazardous waste products</a></li>
-    <li><a href="#!">Dispoal options</a></li>
-    <li><a href="#!">Safer home products</a></li>
-    <li><a href="#!">Home collection</a></li>
-    <li><a href="#!">Incentives & home inspections</a></li>
-  </ul>
-  <ul id="dropdown2" class="dropdown-content">
-    <li><a href="#!">Dispose hazardous waste</a></li>
-    <li><a href="#!">How to choose safer products</a></li>
-    <li><a href="#!">Consultation</a></li>
+    <ul class="sidenav hw-sidenav" id="mobile-nav">
+    <li>
+      <ul class="collapsible">
+        <li>
+          <div class="collapsible-header">Households <i class="material-icons right">expand_more</i></div>
+          <div class="collapsible-body">
+            <div><a href="#">Find hazardouse waste products</a></div>
+            <div><a href="#">Disposal options</a></div>
+            <div><a href="#">Safer home products</a></div>
+            <div><a href="#">Home collection</a></div>
+            <div><a href="#">Incentives & home inspections</a></div>
+          </div>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#"></a></li>
+    <li><a href="#">Business <i class="material-icons right">expand_more</i></a></li>
+    <li><a href="#">News & Events</a></li>
+    <li><a href="#">Language Resources</a></li>
+    <li><a href="#">Customer Service</a></li>
   </ul>
 </header>
   <main>
@@ -387,7 +422,7 @@
         </p>
       </div>
       <div class="col s12 m6 l3">
-        <p class="footer-bold">130 Nickerson St. Suite 100<br />
+        <p>130 Nickerson St. Suite 100<br />
           Seattle WA 98101</p>
       </div>
       <div class="col s12 m6 l3">
@@ -396,7 +431,7 @@
       </div>
       <div class="col s12 m6 l3">
         <ul>
-          <li><a href="#"><img src="images/instagram-icon.svg" alt="Instagram"></a></li>
+          <li><a href="#"><img src="images/icons/instagram-icon.svg" alt="Instagram"></a></li>
           <li><a href="#">Contact Us</a></li>
           <li><a href="#">Terms of Service</a></li>
         </ul>
