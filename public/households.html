@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<<<<<<< HEAD
+  <nav class="nav nav-extended">
+  <div class="hw-container">
+    <div class="nav-wrapper">
+      <a href="#" class="left brand-logo">
+      <img src="images/body/Logo.svg" class="responsive-desktop" width="268" height="48"/>
+      <img src="images/body/HWMP-brandMark.svg" class="responsive-mobile" width="40" height="40"/>
+      </a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+        ><i class="material-icons">menu</i></a
+      >
+=======
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,6 +22,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link rel="stylesheet" href="./style.css" />
 </head>
+>>>>>>> 98cb889a50b89e87d1a8de18ab13b6052e71956d
 
 <body>
   <header class="hw-header">
@@ -29,6 +42,69 @@
       <i class="material-icons" >close</i>
     </div>
   </form>
+<<<<<<< HEAD
+</div>
+          <!-- START: nav -->
+    <div class="hw-nav">
+      <div class="">
+
+        <ul class="left hide-on-med-and-down">
+          <li class="dropdown"><a href="#">Households <img alt="" src="images/body/ic_keyboard_arrow_down.png"></a>
+              <ul class="is-open">
+                <li><a href="#">Find hazardous waste products</a></li>
+                <li><a href="#">Disposal options</a></li>
+                <li><a href="#">Safer home products</a></li>
+                <li><a href="#">Home collection</a></li>
+                <li><a href="#">Incentives & home inspections</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#">Businesses <img alt="" src="images/body/ic_keyboard_arrow_down.png"></a>
+            <ul class="is-open">
+			<li><a href="#">Hazardous waste product library</a></li>
+			<li><a href="#">Dispose hazardous waste</a></li>
+			<li><a href="#">Produce less hazardous waste</a></li>
+			<li><a href="#">Business incentives & grants</a></li>
+			<li><a href="#">Consultation</a></li>
+			<li><a href="#">IMEX</a></li>
+		</ul></li>
+	<li><a href="#">News & Events</a></li>
+	<li><a href="#">Language Resources</a></li>
+	<li><a href="#">Customer Service</a></li>
+        </ul>
+
+      </div>
+    </div>
+    <!-- END: nav -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script>
+  // toggle drop down
+  $(document).ready(function(){
+    $("li:has(ul)").click(function(){
+      if ($(this).find(".is-open").is(":visible")) {
+        $(".is-open").hide();
+      } else {
+        $(".is-open").hide();
+        $(this).find(".is-open").toggle();
+      }
+    });
+  });
+
+
+  // close menu when clicked outside of drop down menu
+  $(document).on("click", function(event){
+    var $triggerOn = $(".dropdown");
+    if($triggerOn !== event.target && !$triggerOn.has(event.target).length){
+      $(".is-open").hide();
+    }            
+  });  
+</script>
+
+
+   
+=======
 <div>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li>
@@ -44,6 +120,7 @@
           <li class="right"><a class="nav-link waves-effect waves-light" href="#">Customer Service</a></li>
         </ul>
       </div>
+>>>>>>> 98cb889a50b89e87d1a8de18ab13b6052e71956d
     </div>
   </nav>
   <ul class="sidenav" id="mobile-demo">
@@ -76,6 +153,49 @@
     <h1 class="hero-title ">
       How to dispose of household hazardous waste
     </h1>
+<<<<<<< HEAD
+    <h1>Testing</h1>
+  </div>
+</section>
+      <section>
+        <div class="container hw-safety-tips" style="margin-top: 60px; margin-bottom: 60px">
+        <div class="row valign-wrapper"><h3>Safety tips for transporting your hazardous waste</h3>
+        </div>
+          <div class="row valign-wrapper">
+            <div class="col s12 s4 left">
+              <div class="promo"><i class="material-icons medium" style="color:#047786">battery_std</i>
+              <p>Don’t mix or combine products.</p>
+              </div>
+            </div>
+            <div class="col s12 s4 left">
+              <i class="material-icons medium" style="color:#047786">delete</i>
+              <p>Keep products in their original containers whenever possible.</p>
+            </div>
+            <div class="col s12 s4 left">
+              <i class="material-icons medium" style="color:#047786">mode_edit</i>
+              <p>Label products that are not marked.</p>
+            </div>
+          </div>
+          <div class="row valign-wrapper">
+            <div class="col s12 s4 left">
+              <i class="material-icons medium" style="color:#047786">lock_outline</i>
+              <p>Secure products so they won’t tip or leak.</p>
+            </div>
+            <div class="col s12 s4 left">
+              <i class="material-icons medium" style="color:#047786">local_shipping</i>
+              <p>Cover and tie down your load. Please stay in 
+your vehicle while unloading at the Auburn Wastemobile or traveling Wastemobile.</p>
+            </div>
+            <div class="col s12 s4 left">
+              <i class="material-icons medium" style="color:#047786">drive_eta</i>
+              <p>Don’t transport products in the passenger compartment of your vehicle.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="hw-footer page-footer">
+=======
     <div class="hero-text">
     <p>If you live in King County, you can take your household hazardous waste to any of our four collection sites or to the traveling Wastemobile. You don’t need to make an appointment, and there’s no fee for this service.<p>
     </div>
@@ -373,6 +493,7 @@
 </div>
   </main>
   <footer class="hw-footer page-footer">
+>>>>>>> 98cb889a50b89e87d1a8de18ab13b6052e71956d
   <div class="container">
     <div class="row">
       <div class="col s6 m3 l2">
