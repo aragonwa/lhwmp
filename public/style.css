@@ -227,8 +227,7 @@ i {
     position: relative;
     min-width: 280px; }
   .hw-nav ul li:hover ul li a {
-    color: #666;
-    padding: 20px; }
+    color: #666; }
   .hw-nav ul li .material-icons {
     display: inline;
     vertical-align: bottom;
