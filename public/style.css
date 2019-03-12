@@ -299,14 +299,18 @@ i {
 .hw-footer {
   background-color: #141C20;
   color: #ffffff;
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px; }
   .hw-footer .container {
-    width: 100%; }
+    width: 100%;
+    justify-content: center; }
     .hw-footer .container .row {
-      width: 90%;
       padding: 0px !important;
-      margin-bottom: 0px; }
+      margin-bottom: 0px;
+      margin-left: 40px; }
+      .hw-footer .container .row .col {
+        padding-right: 40px; }
       .hw-footer .container .row a {
         color: #B6C0C4;
         font-weight: 500; }
