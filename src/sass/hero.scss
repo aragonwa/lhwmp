@@ -1,6 +1,6 @@
 .#{$namespace}-hero {
   position: relative;
-  .hero-content{
+  .hero-content {
     position: absolute;
     z-index: 1;
     top: 50%;
@@ -13,9 +13,13 @@
     }
     font-size: 18px;
     .hero-text {
-      margin-right:auto;
-      margin-left:auto;
-      width:73%;
+      margin-right: auto;
+      margin-left: auto;
+      width: 73%;
     }
+  }
+
+  .parallax-container {
+    max-height: 500px;
   }
 }

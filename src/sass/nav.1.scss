@@ -1,0 +1,130 @@
+.#{$namespace}-nav {
+  margin-right: 175px;
+  /* first level navigation styles */
+  ul li a {
+    display: block;
+    padding: 0px 10px 0px 10px;
+    color: #666;
+  }
+  ul li:hover {
+    background: #E6E9EB;
+  }
+
+  ul li:hover a {
+    color: #047786;
+  }
+
+  li > ul {
+    display: none;
+  }
+  // /* second level navigation styles */
+  ul ul {
+    z-index: 2;
+    background-color: #f1f4f5;
+    position: absolute;
+    top: 73px;
+  }
+  ul ul li {
+    float: none;
+    position: relative;
+    min-width:280px;
+  }
+
+  ul li:hover ul li a {
+    color: #666;
+  }
+  ul li .material-icons {
+    display:inline; 
+    vertical-align:bottom;
+    margin-left:0;
+  }
+
+  ul.is-open:before {
+    position: relative;
+  }
+
+  ul ul.sub-menu {
+    top:0;
+    left:100%;
+  }
+
+  //   ul ul li a {
+  //   line-height: normal;
+  //   padding: 14px 0px 14px 10px;
+  // }
+
+  //   ul ul li a:hover {
+  //   background: #e6e9eb;
+  //   color: #666;
+  // }
+
+  //   .show {
+  //     display: block;
+  //   }
+
+  //   ul {
+  //     background: #ffffff;
+  //     padding: 0 20px;
+  //     border-radius: 0px;
+  //     list-style: none;
+  //     position: relative;
+  //     // zoom: 1;
+  //     font-size: 0.9375rem;
+  //   }
+
+  //   ul:after {
+  //   content: '';
+  //   clear: both;
+  //   display: block;
+  // }
+
+  //   li {
+  //   float: left;
+  // }
+
+  // @media screen and (max-width: 992px) {
+  //   .sidenav-trigger {
+  //     float:right;
+  //   }
+  // }
+  //   // .nav-wrapper {
+  //   //   margin: 10px 10px 10px 0px;
+  //   // }
+
+
+
+  // @media screen and (max-width: 768px) {
+
+  //   // .nav-wrapper {
+  //   //   width:100%;
+  //   //   margin: 10px 10px 10px 0px;
+  //   // }
+
+  //   .brand-logo .responsive-mobile {
+  //     display: block;
+  //   }
+
+  //   .brand-logo .responsive-desktop {
+  //     display: none;
+  //   }
+
+  // li {
+  //       float: none;
+  // }
+
+  //   ul ul {
+  // background-color: #F1F4F5;
+  //       position: relative;
+  //       top: 0;
+  //     }
+
+  //   ul ul li {
+  // width: 100%;
+  //     }
+
+  //   ul ul li a {
+  // padding: 14px 0px 14px 30px;
+  //     }
+
+  // }
+}
